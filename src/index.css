@@ -1,0 +1,181 @@
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* mont */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import 'tailwindcss';
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+.mont {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.blue-text{
+  color: #4AC3D5;
+}
+button {
+  cursor: pointer;
+}
+.heading{
+  font-weight: 600;
+  font-size: 40px;
+  color: #333333;
+}
+.text{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.custom-dashed::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 1rem; /* matches rounded-2xl */
+  padding: 1px; /* border thickness */
+
+  background: repeating-linear-gradient(
+      0deg,
+      #A5D28333 0 12px,
+      transparent 12px 24px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #A5D28333 0 12px,
+      transparent 12px 24px
+    );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+.overlay {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.167) 0%, transparent 70%);
+  transform: scale(0);
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.group:hover .overlay {
+  transform: scale(1.5); /* grows outward */
+}
+
+
+/* moving partners */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+.animate-marquee-hero {
+  animation: marquee 48s linear infinite;
+}
+.animate-marquee {
+  animation: marquee 85s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee 85s linear infinite reverse;
+}
+
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes marquee-reverse {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+/* .animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+} */
+
+/* Disable animation on desktop */
+/* @media screen and (min-width: 1024px) {
+  .animate-marquee {
+    animation: none;
+  }
+} */
+
+/* whatsapp pulse */
+@keyframes pulse-slow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.8);     /* wider radius / bigger spread */
+    opacity: 0;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animation-delay-500 {
+  animation-delay: 0.5s;     /* second ring starts a bit later → nicer wave */
+}
+
+
+.animate-pulse-slow {
+  animation: pulse-slow 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.group:hover .animate-pulse-slow {
+  animation: pulse-slow 1.8s ease-out forwards;
+}
+
+
+/* hide scroll */
+/* Hide scrollbar for Chrome, Safari, Edge, Opera (WebKit & Blink) */
+.your-element::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.your-element {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE and old Edge */
+.your-element {
+  -ms-overflow-style: none;
+}
+
+
+
+
