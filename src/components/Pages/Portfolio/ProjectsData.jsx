@@ -1010,7 +1010,7 @@ const ProjectsData = {
     },
 
     "noly": {
-  color: '#8266F1',
+  color: '#2270F0',
   shadeColor1: '#2270F0',
   shadeColor2: '#8266F1',
   thumbnail: noly,
@@ -1450,7 +1450,7 @@ const ProjectsData = {
     },
   ],
   cta: {
-    bg: '#E91E8C14',
+    bg: '#15AF4F14',
     ctaMedia: revealit4,
     title: "Anonymous Reveals with <span class='text-[#15AF4F]'>Hints, Reactions & Mystery</span> Connections",
     text: "Send anonymous reveals, get exciting hints about senders, and react to messages for a fun and unique social experience.",
