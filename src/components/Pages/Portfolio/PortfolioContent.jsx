@@ -145,7 +145,7 @@ const PortfolioContent = () => {
         {/* ================================
             Main Content Container
         ================================ */}
-        <div className='my-20 w-[88%] mx-auto relative'>
+        <div className='my-20  w-[88%] mx-auto relative'>
 
           {/* ================================
               Hero Section (different layout for Web vs Mobile)
@@ -240,13 +240,13 @@ const PortfolioContent = () => {
 
               {/* Center main mockup image */}
               <motion.img
-                src={project?.topMedia}
-                className={`${isWeb ? 'w-full' : 'w-[80%]'}`}
-                alt=""
-                variants={imageVariants}
-                initial="hidden"
-                animate={inView ? "visible" : "hidden"}
-              />
+  src={project?.topMedia}
+  className={`${isWeb ? 'w-full' : 'w-[55%] sm:w-[50%] md:w-[42%] lg:w-[80%] mx-auto'}`}
+  alt=""
+  variants={imageVariants}
+  initial="hidden"
+  animate={inView ? "visible" : "hidden"}
+/>
 
               {/* ================================
                   Top Floating Label (mobile layout only)
@@ -483,7 +483,7 @@ const PortfolioContent = () => {
 
                   {/* Actual mockup image with fly-in animation */}
                   <motion.img
-               className={`pl-0 lg:pl-5 mb-[-2rem] ${isWeb ? 'w-[95%]' : 'w-[85%] lg:w-[70%]'} relative z-4`} 
+              className={`pl-0 lg:pl-5 mb-[-2rem] ${isWeb ? 'w-[95%]' : 'w-[60%] sm:w-[65%] md:w-[55%] lg:w-[70%]'} relative z-4`}
                     src={detail?.image1}
                     alt="feature media"
                     variants={{
