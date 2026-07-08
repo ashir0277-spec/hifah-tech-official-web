@@ -848,10 +848,13 @@ const [hoverId, setHoverId] = useState('')
     className="relative rounded-xl overflow-hidden shadow-[0_2px_16px_0_#E3EBFC] hover:shadow-[0_4px_20px_0_#E3EBFC] transition-all duration-300 cursor-pointer "
   >
     {/* Image */}
+  {/* Image */}
+    {/* Image */}
+ {/* Image */}
     <img
       src={item.image}
       alt={item.title}
-      className={`w-full h-[250px] sm:h-[400px] object-center sm:object-cover transition-transform duration-500 ${hovered && hoverId === item.id? 'scale-110' : ''}`}
+      className={`w-full h-auto object-contain transition-transform duration-500 ${hovered && hoverId === item.id? 'scale-110' : ''}`}
     />
 
     {/* Overlay */}
