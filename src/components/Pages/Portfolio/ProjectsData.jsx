@@ -146,6 +146,31 @@ const Yazboz2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782561767/G
 const Yazboz3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782561767/Group_1686557169_mrwqny.png'
 const Yazboz4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782561766/Bottam_pahrbm.png'
 
+
+// FitMe 
+
+const FitMe_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593240/Hero_ebenwz.png'
+const FitMe_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593241/Main_Feature_cnntqm.png'
+const FitMe_1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593236/1_mi4gnz.png'
+const FitMe_2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593237/2_odosfb.png'
+const FitMe_3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593237/3_aah9pa.png'
+
+// MEGO 
+const mego_thhumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593155/Hero_kjnw5h.png'
+const mego_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593155/Main_Feature_zznzct.png'
+const mego_1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593154/1_nw8pmz.png'
+const mego_2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593153/2_dh9ien.png'
+const mego_3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593154/3_m95m2q.png'
+const mego_4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593154/Bottam_jtussl.png'
+
+// Mb Travel 
+const MbTravel_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593215/Hero_arfdth.png'
+const MbTravel_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593214/Main_Feature_bywhdr.png'
+const MbTravel1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593207/1_zrytrr.png'
+const MbTravel2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593208/2_bamxx0.png'
+const MbTravel3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593208/3_av0spy.png'
+const MbTravel4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593209/Bottam_ppyhk8.png'
+
 // Web Mockups
 
 
@@ -165,6 +190,9 @@ const UbkTowing3  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17828161
  const FieldTrip1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816178/Studio-Display_zgwtex.png'
  const FieldTrip2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816172/3_lunqdn.png'
  const FieldTrip3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816173/4_tx2sdx.png'
+
+ 
+
 
 
 
@@ -230,6 +258,67 @@ const Glassgow1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816184
 const Glassgow2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816184/2_s0wees.png'
 const Glassgow3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816185/3_snipdc.png'
 
+
+// BurnMobile Tyres 
+
+const BurnMobile_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593323/Hero_p1jmhs.png'
+const BurnMobile_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593325/Main_Feature_fhdryy.png'
+const BurnMobile1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593321/1_q3jmab.png'
+const BurnMobile2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593321/2_tz4lh5.png'
+const BurnMobile3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593322/3_xazgzr.png'
+
+ // SpecOptics //
+
+ const Specoptics_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593437/Hero_i90q44.png'
+ const Specoptics_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593441/Main_Feature_me8qjt.png'
+ const Specoptics1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593434/1_yx2qft.png'
+ const Specoptics2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593435/2_k68jaj.png'
+ const Specoptics3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593436/3_dredjb.png'
+
+//  Mobile Emissions
+
+const MobileEmissions_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593280/Hero_cgixc2.png'
+const MobileEmissions_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593280/Main_Feature_zrlfna.png'
+const MobileEmissions1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593278/1_zazhmv.png'
+const MobileEmissions2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593279/2_cpnylc.png'
+const MobileEmissions3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593278/3_yp86xy.png'
+
+
+// OXZ Market
+const OXZMarket_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593354/Hero_u3shav.png'
+const OXZMarke_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593356/Main_Feature_dn2frb.png'
+const OXZMarket1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593351/1_udwdbu.png'
+const OXZMarket2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593351/2_mbdkr5.png'
+const OXZMarket3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593353/3_l1fibk.png'
+
+// Sohagan
+const sohagan_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604492/Hero_egxqta.png'
+const sohagan_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604497/Main_Feature_tz2rhq.png'
+const sohagan1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604480/1_ekumy0.png'
+const sohagan2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604482/2_wa8isp.png'
+const sohagan3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604486/3_axdiec.png'
+
+// Diamond Yarn 
+const DiamondYarn_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604538/Hero_gtalg5.png'
+const DiamondYarn_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604544/Main_Feature_hdgdwc.png'
+const DiamondYarn1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604525/1_tc9s9i.png'
+const DiamondYarn2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604529/2_fcts96.png'
+const DiamondYarn3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604533/3_fcatrs.png'
+
+// vendCommm
+const VendComm_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604641/Hero_gqrhxv.png'
+const VendComm_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604648/Main_Feature_lksnur.png'
+const VendComm1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604626/1_o7flih.png'
+const VendComm2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604630/2_lkry8c.png'
+const VendComm3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604635/3_wd2hr0.png'
+
+
+// vendcomm Dashbaord 
+const VendCommDashboard_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606314/Hero_b5kqak.png'
+const VendCommDashboard_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606321/Main_Feature_bnqust.png'
+const VendCommDashboard1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606295/1_vidqgd.png'
+const VendCommDashboard2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606298/2_tvp9zf.png'
+const VendCommDashboard3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606318/3_lymkqv.png'
 
 const ProjectsData = {
 
@@ -1755,6 +1844,311 @@ const ProjectsData = {
   ],
 },
 
+// FitME 
+"fitme": {
+    tag: "app",
+
+    color: "#FF4081",
+    shadeColor: "#FF408166",
+
+    thumbnail: FitMe_thumb,
+    topMedia: FitMe_top,
+
+    heroTag: "AI Wardrobe Stylist",
+
+    title: "Smart <span class='text-[#FF4081]'>AI Outfit Stylist</span> App",
+
+    desc: "Discover intelligent outfit recommendations with an AI-powered wardrobe app designed to curate, plan, and style your daily looks effortlessly.",
+
+    leftContent: [
+        {
+            title: "Smart Curation",
+            desc: "Explore personalized wardrobe suggestions like casual, formal, seasonal, work, or party wear clothing trends with one simple tap.",
+        },
+        {
+            title: "Style Planner",
+            desc: "Schedule your upcoming weekly outfits like corporate, wedding, holiday, sports, or evening event styles with one simple tap.",
+        },
+        {
+            title: "Digital Wardrobe",
+            desc: "Save your favorite curated combinations like jackets, trousers, boots, shirts, or trending accessories with one simple tap.",
+        },
+    ],
+
+    rightContent: [
+        {
+            title: "Weather Adaptation",
+            desc: "Discover relevant climate attire choices like winter, summer, rainy, autumn, or spring clothing recommendations with one simple tap.",
+        },
+        {
+            title: "Automated Picks",
+            desc: "Generate intelligent daily matching suggestions like modern, vintage, minimal, vibrant, or professional fashion layouts with one simple tap.",
+        },
+        {
+            title: "History Tracker",
+            desc: "Review your previously selected combinations like traditional, luxury, streetwear, athletic, or business clothing histories with one simple tap.",
+        },
+    ],
+
+    bottom: {
+        title: "Cart Integration",
+        desc: "Purchase highly recommended matching items like footwear, outerwear, garments, jewelry, or essential lifestyle products with one simple tap.",
+    },
+
+    details: [
+        {
+            first: "image",
+            image1: FitMe_1,
+            title: "Automated <span class='text-[#FF4081]'>Wardrobe Item Summary</span> Screen",
+            desc: "The Summary Page shows item inputs, color palettes, apparel categories, and occasion tags in a simple and organized layout, helping users organize clothing items and never pick mismatched fashion products or wrong styling combinations.",
+        },
+        {
+            first: "text",
+            image1: FitMe_2,
+            title: "Interactive <span class='text-[#FF4081]'>Clothing Customization</span> Selection Screen",
+            desc: "The Selection Page shows material fabric, occasion filters, type categories, and customized color dots in a simple and organized layout, helping users catalog wardrobe items and never select mismatched apparel products or inaccurate styling options.",
+        },
+        {
+            first: "image",
+            image1: FitMe_3,
+            title: "Interactive <span class='text-[#FF4081]'>Wardrobe Camera</span> Scanner Screen",
+            desc: "The Scanner Page shows camera viewfinders, aspect ratios, flash toggles, and live gallery previews in a simple and organized layout, helping users scan apparel items and never upload blurry clothing products or distorted lifestyle snaps.",
+        },
+    ],
+
+    cta: {
+        bg: "#FF40811F",
+        ctaMedia: FitMe_thumb,
+        title: "Plan Your <span class='text-[#FF4081]'>Weekly Outfits and AI</span> Generated Looks",
+        text: "This system offers real-time outfit planning and style selection to improve experience and wardrobe quality.",
+    },
+
+  similarProjects: [
+    {
+        id: 'burn-mobile-tyres',
+        title: 'Burn Mobile Tyres',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593323/Hero_p1jmhs.png',
+        description: '24/7 emergency mobile tyre fitting service across Birmingham with RAC-approved technicians and instant roadside assistance.',
+    },
+    {
+        id: 'mobile-emissions',
+        title: 'Mobile Emissions Testing',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
+        description: 'Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.',
+    },
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593437/Hero_i90q44.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+],
+},
+
+// MEGO
+"mego": {
+    tag: "app",
+
+    color: "#FF6F00",
+    shadeColor: "#FF6F0066",
+
+    thumbnail: mego_thhumb,
+    topMedia: mego_top,
+
+    heroTag: "Classified Marketplace",
+
+    title: "Buy & Sell <span class='text-[#FF6F00]'>Verified Items</span> Instantly",
+
+    desc: "Explore a seamless classified marketplace to discover smartphones, automobiles, and properties while connecting directly with verified regional sellers.",
+
+    leftContent: [
+        {
+            title: "Smart Search",
+            desc: "Locate desired items quickly by entering specific keywords alongside selecting your preferred regional location filters seamlessly.",
+        },
+        {
+            title: "Diverse Categories",
+            desc: "Browse verified marketplace listings instantly by choosing between mobile smartphones, premium automobiles, or commercial properties easily.",
+        },
+        {
+            title: "Promotional Banners",
+            desc: "Discover exclusive discounted deals and highlighted automotive advertisements displayed directly onto your interactive home dashboard screen.",
+        },
+    ],
+
+    rightContent: [
+        {
+            title: "Instant Selling",
+            desc: "Upload your personal classified advertisements effortlessly by pressing the prominent central action button to engage buyers.",
+        },
+        {
+            title: "Direct Chat",
+            desc: "Connect securely with verified regional sellers using our intuitive live messaging features to negotiate prices instantly.",
+        },
+        {
+            title: "Reward Points",
+            desc: "Monitor your accumulated virtual profile coins displayed at the top corner to unlock premium application bonuses.",
+        },
+    ],
+
+    bottom: {
+        title: "Profile Management",
+        desc: "Oversee your individual account settings, current active listings, and security preferences using the structured footer layout.",
+    },
+
+    details: [
+        {
+            first: "image",
+            image1: mego_1,
+            title: "Personalized <span class='text-[#FF6F00]'>Marketplace Saved Ads</span> Screen",
+            desc: "The Saved Page shows bookmarked products, favorite items, price tags, and clear item images in a clean and structured dashboard layout, helping users monitor preferred listings and easily secure highly discounted regional deals or premium properties.",
+        },
+        {
+            first: "text",
+            image1: mego_2,
+            title: "Real Time <span class='text-[#FF6F00]'>Marketplace Notifications</span> Screen",
+            desc: "The Notifications Page shows payment receipts, review statuses, account updates, and live alert badges in a clean and minimal interface layout, helping users track advertisement approvals and never miss critical transaction confirmations or important marketplace updates.",
+        },
+        {
+            first: "image",
+            image1: mego_3,
+            title: "Comprehensive <span class='text-[#FF6F00]'>User Account Settings</span> Screen",
+            desc: "The Account Page shows profile settings, bookmarked advertisements, transaction history, and support links in a clean and organized menu layout, helping users manage personal details and never lose track of active classified orders or critical profile security configurations.",
+        },
+    ],
+
+    cta: {
+        bg: "#FF6F001F",
+        ctaMedia: mego_4,
+        title: "Buy and Sell <span class='text-[#FF6F00]'>Verified Items on Our</span> Marketplace",
+        text: "This platform offers real-time seller chats and product views to improve transparency and deal quality.",
+    },
+
+   similarProjects: [
+    {
+        id: 'fitme',
+        title: 'FitMe - AI Outfit Stylist',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
+    },
+    {
+        id: 'mobile-emissions',
+        title: 'Mobile Emissions Testing',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
+        description: 'Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.',
+    },
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593437/Hero_i90q44.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+],
+},
+
+// MB Travel 
+"mb-travel": {
+    tag: "app",
+
+    color: "#1A73E8",
+    shadeColor: "#1A73E866",
+
+    thumbnail: MbTravel_thumb,
+    topMedia: MbTravel_top,
+
+    heroTag: "Visa Application Platform",
+
+    title: "Smart <span class='text-[#1A73E8]'>Visa & Immigration</span> Platform",
+
+    desc: "Complete tourist, business, student, or transit visa applications effortlessly with secure document uploads, real-time tracking, and expert legal guidance.",
+
+    leftContent: [
+        {
+            title: "Digital Applications",
+            desc: "Complete your official immigration forms like tourist, business, student, or transit visas easily with one simple tap.",
+        },
+        {
+            title: "Document Upload",
+            desc: "Submit required personal papers like identity cards, passports, photographs, or official invitation documents with one simple tap.",
+        },
+        {
+            title: "Status Tracking",
+            desc: "Monitor your active application updates like pending, approved, verified, rejected, or processing stages with one simple tap.",
+        },
+    ],
+
+    rightContent: [
+        {
+            title: "Secure Payments",
+            desc: "Process urgent government processing fees like processing, premium, embassy, or biometric transaction costs with one simple tap.",
+        },
+        {
+            title: "Expert Guidance",
+            desc: "Access certified legal advice files like instructions, checklists, templates, handbooks, or compliance guidelines with one simple tap.",
+        },
+        {
+            title: "Instant Notifications",
+            desc: "Receive critical verification update alerts like interviews, deadlines, approvals, appointments, or courier dispatches with one simple tap.",
+        },
+    ],
+
+    bottom: {
+        title: "Profile Management",
+        desc: "Save multiple traveler credentials like names, passport details, addresses, histories, or contact numbers with one simple tap.",
+    },
+
+    details: [
+        {
+            first: "image",
+            image1: MbTravel1,
+            title: "Personalized <span class='text-[#1A73E8]'>Immigration Travel Dashboard</span> Screen",
+            desc: "The Dashboard Page shows travel categories, destination filters, active applications, and current review statuses in a clean and organized interface layout, helping users monitor immigration progress and never miss important document deadlines or critical embassy appointments.",
+        },
+        {
+            first: "text",
+            image1: MbTravel2,
+            title: "Interactive <span class='text-[#1A73E8]'>Visa Purpose Selection</span> Screen",
+            desc: "The Purpose Page shows travel options, student categories, work permits, and investment selection cards in a clean and organized layout, helping users identify immigration pathways and never submit incorrect application forms or unapproved documentation types.",
+        },
+        {
+            first: "image",
+            image1: MbTravel3,
+            title: "Comprehensive <span class='text-[#1A73E8]'>Active Visa Tracking</span> Screen",
+            desc: "The Tracker Page shows active timelines, document verifications, payment confirmations, and final decision stages in a clean and structured list layout, helping users monitor multi-country immigration progress and never miss important verification milestones or critical process updates.",
+        },
+    ],
+
+    cta: {
+        bg: "#1A73E81F",
+        ctaMedia: MbTravel4,
+        title: "Track Your <span class='text-[#1A73E8]'>Global Visa Applications</span> and Documents Seamlessly",
+        text: "Our platform offers advanced filter systems and status tracking to improve transparency and upload quality.",
+    },
+
+  similarProjects: [
+    {
+        id: 'mego',
+        title: 'MEGO - Buy & Sell Marketplace',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593155/Hero_kjnw5h.png',
+        description: 'Classified marketplace to discover smartphones, automobiles, and properties with verified sellers and real-time chat.',
+    },
+    {
+        id: 'fitme',
+        title: 'FitMe - AI Outfit Stylist',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
+    },
+    {
+        id: 'mobile-emissions',
+        title: 'Mobile Emissions Testing',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
+        description: 'Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.',
+    },
+],
+},
+
+
+
     // web mockups
 
    // UBK Towing
@@ -2569,6 +2963,704 @@ const ProjectsData = {
         },
     ],
 },
+
+// SpecOptics //
+
+"specoptics": {
+    tag: "web",
+
+    color: "#4A90D9",
+    shadeColor: "#4A90D966",
+
+    thumbnail: Specoptics_thumb,
+    topMedia: Specoptics_top,
+
+    heroTag: "Premium Eyewear",
+
+    title: "Discover <span class='text-[#4A90D9]'>Premium Eyewear</span> Collection",
+
+    desc: "Explore stylish frames, expert eye care, and designer brands through a seamless online optical shopping experience crafted for your vision and style.",
+
+    leftContent: [
+        {
+            title: "Premium Eyewear Collection",
+            desc: "Browse through stylish glasses frames options crafted carefully to enhance your personal fashion statement.",
+        },
+        {
+            title: "Personalized Frame Fittings",
+            desc: "Select from customized lens shapes adjustments designed accurately to ensure your absolute facial comfort.",
+        },
+        {
+            title: "Expert Eye Care",
+            desc: "Benefit from professional medical checkup routines scheduled intentionally to protect your lasting vision health.",
+        },
+    ],
+
+    rightContent: [
+        {
+            title: "Designer Brand Partnerships",
+            desc: "Discover exclusive luxury fashion glasses models launched recently to elevate your entire aesthetic look.",
+        },
+        {
+            title: "Secure Online Ordering",
+            desc: "Proceed through safe digital payment gateways integrated smoothly to finalize your retail purchase transactions.",
+        },
+    ],
+
+    bottom: {
+        title: "Read Our Latest Expert Blogs",
+        desc: "Explore active eye care advice and total vision trends instantly. Read interactive medical lifestyle articles to optimize your entire optical health system.",
+    },
+
+    details: [
+        {
+            first: "image",
+            image1: Specoptics1,
+            title: "Professional <span class='text-[#4A90D9]'>Eyewear Repair Fitting</span> Services",
+            desc: "Adjust customized optical frames and fix broken glasses elements instantly. Experience interactive physical adjustments to optimize your entire visual comfort system.",
+        },
+        {
+            first: "text",
+            image1: Specoptics2,
+            title: "Claim <span class='text-[#4A90D9]'>Exclusive Special Discount</span> Offer",
+            desc: "Unlock premium promotional eyewear sales and total brand frames instantly. Subscribe via active phone inputs to receive your entire retail savings.",
+        },
+        {
+            first: "image",
+            image1: Specoptics3,
+            title: "Read Our <span class='text-[#4A90D9]'>Latest Expert</span> Blogs",
+            desc: "Explore active eye care advice and total vision trends instantly. Read interactive medical lifestyle articles to optimize your entire optical health system.",
+        },
+    ],
+
+    similarProjects: [
+    {
+        id: 'fitme',
+        title: 'FitMe - AI Outfit Stylist',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
+    },
+    {
+        id: 'burn-mobile-tyres',
+        title: 'Burn Mobile Tyres',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593329/Tanbnil_nxxbnr.png',
+        description: '24/7 emergency mobile tyre fitting service across Birmingham with RAC-approved technicians and instant roadside assistance.',
+    },
+    {
+        id: 'mobile-emissions',
+        title: 'Mobile Emissions Testing',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
+        description: 'Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.',
+    },
+],
+},
+
+
+
+// Burn Mobile 
+
+"burn-mobile-tyres": {
+    tag: "web",
+
+    color: "#FF5722",
+    shadeColor: "#FF572266",
+
+    thumbnail: BurnMobile_thumb,
+    topMedia: BurnMobile_top,
+
+    heroTag: "Mobile Tyre Fitting",
+
+    title: "24/7 <span class='text-[#FF5722]'>Mobile Tyre Fitting</span> Service",
+
+    desc: "Access RAC-approved emergency tyre replacement and roadside assistance across Birmingham through a fast, intuitive booking experience.",
+
+    leftContent: [
+        {
+            title: "Instant Emergency Dispatch",
+            desc: "Request immediate roadside help and get an expert technician dispatched to your exact location within just 30-45 minutes.",
+        },
+        {
+            title: "Premium Tyre Brands",
+            desc: "Choose from a wide selection of world-renowned tyre brands, including Pirelli and Yokohama, for guaranteed safety and performance.",
+        },
+    ],
+
+    rightContent: [
+        {
+            title: "RAC Approved Expertise",
+            desc: "Trust in a certified, quality-assured service officially recognized by the RAC for professional 24/7 mobile tyre fitting solutions.",
+        },
+        {
+            title: "Flexible Digital Payment",
+            desc: "Enjoy the ultimate convenience of secure, cashless transactions using multiple payment methods like Apple or Google Pay.",
+        },
+    ],
+
+    bottom: {
+        title: "Read Real Customer Feedback",
+        desc: "Explore authentic client reviews and genuine ratings to understand how we consistently maintain top-tier service standards.",
+    },
+
+    details: [
+        {
+            first: "text",
+            image1: BurnMobile1,
+            title: "Complete <span class = 'text-[#FF5722]'>Mobile Tyre Fitting</span> Services",
+            desc: "Get expert tyre replacements and urgent roadside assistance delivered directly to your current location. Our skilled technicians arrive quickly to ensure you remain completely safe on every single journey.",
+        },
+        {
+            first: "image",
+            image1: BurnMobile2,
+            title: "Explore Our <span class = 'text-[#FF5722]'>Premier Tyre Range</span>",
+            desc: "Select from our vast inventory of branded tyres to find the perfect match for your vehicle's requirements and performance needs.",
+        },
+        {
+            first: "text",
+            image1: BurnMobile3,
+            title: "Emergency <span class = 'text-[#FF5722]'>Roadside Flat Tyre</span> Assistance",
+            desc: "Our mobile tyre experts remain available round the clock to get you moving again quickly. We cover all towns and major motorways across Birmingham to deliver prompt and reliable help.",
+        },
+    ],
+
+  similarProjects: [
+    {
+        id: 'mobile-emissions',
+        title: 'Mobile Emissions Testing',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
+        description: 'Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.',
+    },
+    {
+        id: 'fitme',
+        title: 'FitMe - AI Outfit Stylist',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
+    },
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+],
+},
+
+// Mobile Emissions
+"mobile-emissions": {
+    tag: 'web',
+    color: '#2E7D32',
+    shadeColor: '#2E7D3266',
+
+    thumbnail: MobileEmissions_thumb,
+    topMedia: MobileEmissions_top,
+
+    heroTag: 'Fleet Emission Testing',
+
+    title: "Certified <span class='text-[#2E7D32]'>Mobile Emission</span> Testing",
+
+    desc: 'Access on-site certified emission inspections for heavy trucks and commercial fleets across the GTA with fast booking and instant digital reports.',
+
+    leftContent: [
+        {
+            title: 'On-Site Emissions Testing',
+            desc: 'Experience hassle-free certified inspections for your heavy trucks and industrial vehicles directly at your location.',
+        },
+        {
+            title: 'Certified Fleet Compliance',
+            desc: 'Ensure your entire commercial fleet fully meets the official environmental standards and regional regulatory requirements.',
+        },
+    ],
+
+    rightContent: [
+        {
+            title: 'Fast Appointment Booking',
+            desc: 'Schedule your preferred time slot quickly using our streamlined and user-friendly online booking system.',
+        },
+        {
+            title: 'Full GTA Coverage',
+            desc: 'Access prompt mobile testing solutions seamlessly across the entire Toronto area and surrounding regions.',
+        },
+    ],
+
+    bottom: {
+        title: 'Quick Thirty-Minute Tests',
+        desc: 'Receive comprehensive and highly accurate digital reports completed efficiently within just thirty minutes.',
+    },
+
+    details: [
+        {
+            first: 'text',
+            image1: MobileEmissions1,
+            title: "Certified Heavy Duty Emission Testing",
+            desc: 'Deliver reliable mobile inspections for commercial trucks to eliminate compliance risks and secure verified digital reports that seamlessly fulfill regional fleet environmental standards.',
+        },
+        {
+            first: 'image',
+            image1: MobileEmissions2,
+            title: "Streamline Your Fleet Compliance Today",
+            desc: 'Partner with licensed mobile inspectors to access flexible on-site scheduling, transparent competitive pricing, and certified emissions testing designed to protect your operational efficiency.',
+        },
+        {
+            first: 'text',
+            image1: MobileEmissions3,
+            title: "Our Simple Process Explained Clearly",
+            desc: 'Book your preferred slot, experience expert on-site testing delivered by licensed technicians, and receive certified compliance documentation instantly without any operational hassle.',
+        },
+    ],
+
+ similarProjects: [
+    {
+        id: 'burn-mobile-tyres',
+        title: 'Burn Mobile Tyres',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593329/Tanbnil_nxxbnr.png',
+        description: '24/7 emergency mobile tyre fitting service across Birmingham with RAC-approved technicians and instant roadside assistance.',
+    },
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+    {
+        id: 'fitme',
+        title: 'FitMe - AI Outfit Stylist',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
+    },
+],
+},
+
+// OXZ Market 
+
+"oxz-market": {
+    tag: 'web',
+    color: '#D4A017',
+    shadeColor: '#D4A01766',
+
+    thumbnail: OXZMarket_hero,
+    topMedia: OXZMarke_top,
+
+    heroTag: 'Online Trading Platform',
+
+    title: "Trade <span class='text-[#D4A017]'>Global Forex</span> & Assets",
+
+    desc: 'Access powerful trading tools, real-time market execution, and expert analytical reports through a trusted online broker platform designed for global investors.',
+
+    leftContent: [
+        {
+            title: 'Advanced Trading Tools',
+            desc: 'Access powerful technical indicators designed perfectly to maximize your global market investment returns.',
+        },
+        {
+            title: 'Secure Digital Wallet',
+            desc: 'Protect your valuable financial assets utilizing premium encryption protocols built for maximum safety.',
+        },
+    ],
+
+    rightContent: [
+        {
+            title: 'Instant Market Execution',
+            desc: 'Execute vital currency trades seamlessly without experiencing any stressful delays or costly slippage.',
+        },
+        {
+            title: 'Global Forex Access',
+            desc: 'Trade major international currency pairs easily through our highly trusted online broker platform.',
+        },
+    ],
+
+    bottom: {
+        title: 'Expert Analytical Reports',
+        desc: 'Receive real-time financial data insights tailored explicitly to improve your trading strategy.',
+    },
+
+    details: [
+        {
+            first: 'text',
+            image1: OXZMarket1,
+            title: "Trade Securely With Trusted Broker",
+            desc: 'Access advanced charts, utilize reliable currency execution tools, and leverage expert financial insights designed to protect your valuable market investments seamlessly end to end.',
+        },
+        {
+            first: 'image',
+            image1: OXZMarket2,
+            title: "Earn Competitive Affiliate Program Commissions",
+            desc: 'Unlock outstanding partnership opportunities with our trusted referral network to secure passive financial rewards while effortlessly promoting reliable global trading products and services.',
+        },
+        {
+            first: 'text',
+            image1: OXZMarket3,
+            title: "Explore Diverse Global Trading Assets",
+            desc: 'Maximize your financial portfolio by seamlessly trading top performing stocks, popular foreign currencies, valuable raw commodities, and emerging high growth cryptocurrencies on our advanced platform.',
+        },
+    ],
+
+   similarProjects: [
+    {
+        id: 'mb-travel',
+        title: 'MB Travel - Visa & Immigration',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593215/Hero_arfdth.png',
+        description: 'Smart immigration platform for digital visa applications, secure document uploads, and real-time application tracking worldwide.',
+    },
+    {
+        id: 'mego',
+        title: 'MEGO - Buy & Sell Marketplace',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593156/Tanbnil_yoqi3j.png',
+        description: 'Classified marketplace to discover smartphones, automobiles, and properties with verified sellers and real-time chat.',
+    },
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+],
+},
+// Sohagan
+"sohagan": {
+    tag: 'web',
+    color: '#B8860B',
+    shadeColor: '#B8860B66',
+
+    thumbnail: sohagan_hero,
+    topMedia: sohagan_top,
+
+    heroTag: 'Luxury Jewellery Platform',
+
+    title: "Timeless <span class='text-[#B8860B]'>Handcrafted</span> Jewellery",
+
+    desc: 'Browse through luxury bridal jewellery, premium gold collections, and exclusive custom designs with secure online shopping and worldwide insured shipping.',
+
+    leftContent: [
+        {
+            title: 'Timeless Handcrafted Pieces',
+            desc: 'Browse through luxury bridal jewellery options crafted perfectly to meet your traditional wedding requirements.',
+        },
+        {
+            title: 'Premium Gold Collections',
+            desc: 'Access authentic certified metal asset deals sourced perfectly to meet your personal styling requirements.',
+        },
+    ],
+
+    rightContent: [
+        {
+            title: 'Exclusive Custom Designs',
+            desc: 'Select unique heritage necklace ring sets tailored perfectly to meet your aesthetic fashion requirements.',
+        },
+        {
+            title: 'Secure Online Shopping',
+            desc: 'Proceed through safe digital payment portal setups structured perfectly to meet your retail purchase requirements.',
+        },
+    ],
+
+    bottom: {
+        title: 'Worldwide Insured Shipping',
+        desc: 'Receive fine valuable luxury parcel shipments refined perfectly to meet your global delivery requirements.',
+    },
+
+    details: [
+        {
+            first: 'text',
+            image1: sohagan1,
+            title: "Shop Premium Luxury Handmade Bracelets",
+            desc: 'Monitor elegant wrist jewelry varieties and total designer bundles instantly. Analyze interactive custom leather bands to optimize your entire fashion system.',
+        },
+        {
+            first: 'image',
+            image1: sohagan2,
+            title: "Buy Elegant Couple Gold Jewelry",
+            desc: 'Monitor premium heritage necklace varieties and total bridal bundles instantly. Analyze interactive custom engagement rings to optimize your entire luxury system.',
+        },
+        {
+            first: 'text',
+            image1: sohagan3,
+            title: "Filter Luxury Wedding Jewelry Collection",
+            desc: 'Monitor diverse bridal necklace sets and total premium deals instantly. Analyze interactive custom sizing options to optimize your entire retail system.',
+        },
+    ],
+
+   similarProjects: [
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+    {
+        id: 'fitme',
+        title: 'FitMe - AI Outfit Stylist',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
+    },
+   {
+    id: "diamond-yarn",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png",
+    title: "Diamond Yarn - Premium Yarns",
+    description: "Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.",
+},
+],
+},
+
+// Diamond Yarn 
+"diamond-yarn": {
+    tag: 'web',
+    color: '#6A1B9A',
+    shadeColor: '#6A1B9A66',
+
+    thumbnail: DiamondYarn_hero,
+    topMedia: DiamondYarn_top,
+
+    heroTag: 'Premium Yarn Platform',
+
+    title: "Premium <span class='text-[#6A1B9A]'>Quality Yarns</span> & Accessories",
+
+    desc: 'Browse through luxury knitting threads, official brand distributions, handcrafted needles, curated patterns, and universal fiber accessories for all your creative crafting needs.',
+
+    leftContent: [
+        {
+            title: 'Premium Quality Yarns',
+            desc: 'Browse through luxury knitting threads options crafted perfectly to meet your creative crafting requirements.',
+        },
+        {
+            title: 'Official Brand Distribution',
+            desc: 'Access authentic global textile label deals sourced perfectly to meet your wholesale manufacturing requirements.',
+        },
+    ],
+
+    rightContent: [
+        {
+            title: 'Handcrafted Knitting Needles',
+            desc: 'Select durable ergonomic stitching tool sets tailored perfectly to meet your professional production requirements.',
+        },
+        {
+            title: 'Beautiful Curated Patterns',
+            desc: 'Discover custom weaving design guide layouts structured perfectly to meet your artistic project requirements.',
+        },
+    ],
+
+    bottom: {
+        title: 'Universal Fiber Accessories',
+        desc: 'Order fine organic spinning material choices refined perfectly to meet your seasonal design requirements.',
+    },
+
+    details: [
+        {
+            first: 'text',
+            image1: DiamondYarn1,
+            title: "Shop Premium Serenity Needle Sets",
+            desc: 'Monitor circular knitting tool varieties and total crafting bundles instantly. Analyze interactive colorful needle packs to optimize your entire weaving system.',
+        },
+        {
+            first: 'image',
+            image1: DiamondYarn2,
+            title: "Explore Luxury Cashmere Yarn Collection",
+            desc: 'Monitor vibrant colorful thread materials and total crafting bundles instantly. Analyze interactive soft textile loops to optimize your entire weaving system.',
+        },
+        {
+            first: 'text',
+            image1: DiamondYarn3,
+            title: "Apply For Wholesale Partner Account",
+            desc: 'Monitor business profile details and total verification documents instantly. Analyze interactive registration inputs to optimize your entire partner onboarding system.',
+        },
+    ],
+
+    similarProjects: [
+    {
+        id: 'sohagan',
+        title: 'Sohagan - Luxury Jewellery',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png',
+        description: 'Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.',
+    },
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+    {
+        id: 'fitme',
+        title: 'FitMe - AI Outfit Stylist',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
+    },
+],
+},
+
+// VendComm
+"vendcomm": {
+    tag: 'web',
+    color: '#0D47A1',
+    shadeColor: '#0D47A166',
+
+    thumbnail: VendComm_hero,
+    topMedia: VendComm_top,
+
+    heroTag: 'Event Management Platform',
+
+    title: "Streamline <span class='text-[#0D47A1]'>Vendor Communications</span> & Events",
+
+    desc: 'Centralize invoices, manage vendor communications, track event timelines, and streamline team coordination through a powerful event management platform.',
+
+    leftContent: [
+        {
+            title: 'Centralize All Invoices',
+            desc: 'Navigate through secure billing payment deals tailored perfectly to meet your operational requirements.',
+        },
+        {
+            title: 'Manage Vendor Communications',
+            desc: 'Connect through unified interactive conversation logs tailored perfectly to meet your operational requirements.',
+        },
+    ],
+
+    rightContent: [
+        {
+            title: 'Track Event Timelines',
+            desc: 'Monitor through precise digital schedule tracking tools tailored perfectly to meet your operational requirements.',
+        },
+        {
+            title: 'Secure Early Access',
+            desc: 'Register through official premium waitlist portal signups tailored perfectly to meet your operational requirements.',
+        },
+    ],
+
+    bottom: {
+        title: 'Streamline Team Coordination',
+        desc: 'Organize through efficient automated workflow management platforms tailored perfectly to meet your operational requirements.',
+    },
+
+    details: [
+        {
+            first: 'text',
+            image1: VendComm1,
+            title: "Solve Your Event Management Challenges",
+            desc: 'Monitor active project workflow histories and total vendor profiles instantly. Analyze interactive corporate transformation lists to optimize your entire system.',
+        },
+        {
+            first: 'image',
+            image1: VendComm2,
+            title: "Explore Our Key Platform Features",
+            desc: 'Monitor active vendor communication histories and total project budgets instantly. Analyze interactive digital marketing lists to optimize your entire event system.',
+        },
+        {
+            first: 'text',
+            image1: VendComm3,
+            title: "Choose Your Perfect Pricing Plans",
+            desc: 'Monitor active subscription tier histories and total package details instantly. Analyze interactive corporate budget lists to optimize your entire event system.',
+        },
+    ],
+
+    similarProjects: [
+    {
+        id: 'diamond-yarn',
+        title: 'Diamond Yarn - Premium Yarns',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png',
+        description: 'Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.',
+    },
+    {
+        id: 'sohagan',
+        title: 'Sohagan - Luxury Jewellery',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png',
+        description: 'Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.',
+    },
+    {
+        id: 'specoptics',
+        title: 'SpecOptics - Premium Eyewear',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
+        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
+    },
+],
+},
+
+// vendcomm Dashbaord 
+"vendcomm-dashboard": {
+    tag: 'web',
+    color: '#1565C0',
+    shadeColor: '#1565C066',
+
+    thumbnail: VendCommDashboard_hero,
+    topMedia: VendCommDashboard_top,
+
+    heroTag: 'Vendor Management Dashboard',
+
+    title: "Manage <span class='text-[#1565C0]'>Vendor Campaigns</span> & Budgets",
+
+    desc: 'Streamline marketing campaigns, track event budgets, assign portal tasks, connect stakeholders, and generate digital invoices through a powerful vendor management dashboard.',
+
+    leftContent: [
+        {
+            title: 'Manage Marketing Campaigns',
+            desc: 'Navigate through secure promotional launch deals tailored perfectly to meet your operational requirements.',
+        },
+        {
+            title: 'Track Event Budgets',
+            desc: 'Monitor through precise corporate financial allocation setups tailored perfectly to meet your operational requirements.',
+        },
+    ],
+
+    rightContent: [
+        {
+            title: 'Assign Portal Tasks',
+            desc: 'Delegate through direct executive activity tracking workflows tailored perfectly to meet your operational requirements.',
+        },
+        {
+            title: 'Connect Campaign Stakeholders',
+            desc: 'Collaborate through unified internal team contact portals tailored perfectly to meet your operational requirements.',
+        },
+    ],
+
+    bottom: {
+        title: 'Generate Digital Invoices',
+        desc: 'Process through automated client billing history reports tailored perfectly to meet your operational requirements.',
+    },
+
+    details: [
+        {
+            first: 'text',
+            image1: VendCommDashboard1,
+            title: "Streamline Your Vendor Project Tasks",
+            desc: 'Monitor active project task histories and total platform progress instantly. Analyze interactive corporate activity lists to optimize your entire event system.',
+        },
+        {
+            first: 'image',
+            image1: VendCommDashboard2,
+            title: "Manage Your Active Vendor Chats",
+            desc: 'Monitor active user chat histories and total platform messages instantly. Analyze interactive active contact lists to optimize your entire communication system.',
+        },
+        {
+            first: 'text',
+            image1: VendCommDashboard3,
+            title: "Track Your Platform Vendor Profiles",
+            desc: 'Monitor active vendor service histories and total profile details instantly. Analyze interactive service category lists to optimize your entire event system.',
+        },
+    ],
+
+    similarProjects: [
+        {
+            id: 'vendcomm',
+            title: 'VendComm - Event Management',
+            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604655/Tanbnill_iy8ld7.png',
+            description: 'Centralize invoices, manage vendor communications, track event timelines, and streamline team coordination on one powerful platform.',
+        },
+        {
+            id: 'diamond-yarn',
+            title: 'Diamond Yarn - Premium Yarns',
+            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png',
+            description: 'Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.',
+        },
+        {
+            id: 'sohagan',
+            title: 'Sohagan - Luxury Jewellery',
+            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png',
+            description: 'Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.',
+        },
+    ],
+},
+
+
+
+
+
+
+
+
    
     
    

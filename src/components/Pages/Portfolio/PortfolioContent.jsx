@@ -562,18 +562,42 @@ const PortfolioContent = () => {
         {/* ================================
             Similar / Recent Projects Grid
         ================================ */}
-        <div className='py-10 w-[92%] mx-auto'>
-          <h1 className='font-semibold text-3xl sm:text-[48px] pb-4 sm:pb-8 text-[#333]'>Recent Projects</h1>
-          <div className='grid grid-cols-1 sm:grid-cols-3 gap-5'>
-            {project?.similarProjects.map((p, idx) => (
-              <Link key={idx} to={`/portfolio/${p.id}`}>
-                <div>
-                  <img src={p.image} className='hover:scale-103 transition-all duration-200' alt="project" />
-                </div>
-              </Link>
-            ))}
+       {/* ================================
+    Similar / Recent Projects Grid
+=============================== */}
+{/* ================================
+    Similar / Recent Projects Grid
+=============================== */}
+<div className='py-10 w-[92%] mx-auto'>
+  <h1 className='font-semibold text-3xl sm:text-[48px] pb-4 sm:pb-8 text-[#333]'>Recent Projects</h1>
+  <div className='grid grid-cols-1 sm:grid-cols-3 gap-6'>
+    {project?.similarProjects.map((p, idx) => (
+      <Link key={idx} to={`/portfolio/${p.id}`}>
+        <div className='group relative rounded-xl overflow-hidden cursor-pointer bg-[#FAFAFA] aspect-[16/12]'>
+          {/* Project Image */}
+          <img
+            src={p.image}
+            className='w-full h-full object-cover object-center group-hover:scale-105 transition-all duration-700 ease-in-out'
+            alt={p.title}
+            loading='lazy'
+          />
+          
+          {/* Hover Overlay */}
+          <div className='absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out flex flex-col justify-end p-6'>
+            <h3 className='text-white font-semibold text-lg sm:text-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out'>
+              {p.title}
+            </h3>
+            {p.description && (
+              <p className='text-gray-300 text-sm mt-2 line-clamp-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out delay-75'>
+                {p.description}
+              </p>
+            )}
           </div>
         </div>
+      </Link>
+    ))}
+  </div>
+</div>
 
         {/* Bottom CTA Section */}
         <Cta />

@@ -209,6 +209,13 @@ const projects = {
             title: 'Me Closet',
             description: "MeCloset helps users organize outfits, create clothing pairs, and plan looks.", 
         },
+
+         {
+    id: "fitme",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png",
+    title: "FitMe - AI Outfit Stylist",
+    description: "AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.",
+},
         // {
         //     id: 'mego',
         //     image: mego,
@@ -239,6 +246,22 @@ const projects = {
     title: 'Yazboz',
     description: "Yazboz tracks Okey scores, live matches, and complete game history with real-time updates.",
 },
+
+{
+    id: "mego",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593156/Tanbnil_yoqi3j.png",
+    title: "MEGO - Buy & Sell Marketplace",
+    description: "Classified marketplace to discover smartphones, automobiles, and properties with verified sellers and real-time chat.",
+},
+
+{
+    id: "mb-travel",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593215/Hero_arfdth.png",
+    title: "MB Travel - Visa & Immigration",
+    description: "Smart immigration platform for digital visa applications, secure document uploads, and real-time application tracking worldwide.",
+},
+
+
         
     ],
 
@@ -449,6 +472,13 @@ const projects = {
             title: 'service booking app',
             description: "Simplifies service discovery, booking, scheduling, and business management.", 
         },
+
+ {
+    id: "fitme",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png",
+    title: "FitMe - AI Outfit Stylist",
+    description: "AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.",
+},
         // {
         //     id: 'healthful',
         //     image: helth,
@@ -579,6 +609,62 @@ const projects = {
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816121/Tanbnil_qtlfyd.png",
     title: "Developers Door",
     description: "A modern platform for developers to learn, showcase projects, and explore careers.",
+},
+
+{
+    id: "burn-mobile-tyres",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593329/Tanbnil_nxxbnr.png",
+    title: "Burn Mobile Tyres",
+    description: "24/7 emergency mobile tyre fitting service across Birmingham with RAC-approved technicians and instant roadside assistance.",
+},
+
+{
+    id: "specoptics",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png",
+    title: "SpecOptics - Premium Eyewear",
+    description: "Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.",
+},
+
+{
+    id: "mobile-emissions",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png",
+    title: "Mobile Emissions Testing",
+    description: "Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.",
+},
+
+{
+    id: "oxz-market",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593358/Tanbnil_wvwfgh.png",
+    title: "OXZ Market - Forex Trading",
+    description: "Advanced online trading platform for global forex, stocks, commodities, and cryptocurrencies with expert analytical tools.",
+},
+
+{
+    id: "sohagan",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png",
+    title: "Sohagan - Luxury Jewellery",
+    description: "Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.",
+},
+
+{
+    id: "diamond-yarn",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png",
+    title: "Diamond Yarn - Premium Yarns",
+    description: "Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.",
+},
+
+{
+    id: "vendcomm",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604655/Tanbnill_iy8ld7.png",
+    title: "VendComm - Event Management",
+    description: "Centralize invoices, manage vendor communications, track event timelines, and streamline team coordination on one powerful platform.",
+},
+
+{
+    id: "vendcomm-dashboard",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606330/Tanbnill_yc9bbc.png",
+    title: "VendComm Dashboard - Vendor Management",
+    description: "Streamline marketing campaigns, track event budgets, assign tasks, and generate digital invoices on a powerful vendor dashboard.",
 },
         // {
         //     id: "techkyo-services",
@@ -848,9 +934,7 @@ const [hoverId, setHoverId] = useState('')
     className="relative rounded-xl overflow-hidden shadow-[0_2px_16px_0_#E3EBFC] hover:shadow-[0_4px_20px_0_#E3EBFC] transition-all duration-300 cursor-pointer "
   >
     {/* Image */}
-  {/* Image */}
-    {/* Image */}
- {/* Image */}
+  
     <img
       src={item.image}
       alt={item.title}
