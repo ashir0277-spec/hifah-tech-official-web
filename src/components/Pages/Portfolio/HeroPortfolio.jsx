@@ -6,6 +6,10 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Link } from 'react-router-dom'
 
+// Cloudinary URLs
+const uiMockup = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783669233/Rectangle_34626594_n02okg.png'
+const appPreview = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783669244/Rectangle_34626597_s6qiwy.png'
+
 const HeroPortfolio = () => {
     const projects = [
         {
@@ -61,6 +65,24 @@ const HeroPortfolio = () => {
                     <p className="mt-2 sm:mt-2 text-[15px] sm:text-lg mont font-medium text-[#454648] w-full sm:w-[50%]">
                         Have an idea you’re ready to bring to life? Let’s connect and discuss how we can turn it into a successful digital product.
                     </p>
+
+                    {/* Two Images In A Row - fully responsive, no cropping on any screen */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-8">
+                        <div className="w-full rounded-lg sm:rounded-xl overflow-hidden bg-white/5">
+                            <img
+                                src={appPreview}
+                                alt="App Preview Mockup"
+                                className="w-full h-auto object-contain"
+                            />
+                        </div>
+                        <div className="w-full rounded-lg sm:rounded-xl overflow-hidden bg-white/5">
+                            <img
+                                src={uiMockup}
+                                alt="UI Mockup Wireframe"
+                                className="w-full h-auto object-contain"
+                            />
+                        </div>
+                    </div>
                 </motion.div>
 
                 <motion.div 

@@ -145,7 +145,7 @@ const PortfolioContent = () => {
         {/* ================================
             Main Content Container
         ================================ */}
-        <div className='my-20  w-[88%] mx-auto relative'>
+        <div className='my-20 w-[88%] mx-auto relative'>
 
           {/* ================================
               Hero Section (different layout for Web vs Mobile)
@@ -190,10 +190,10 @@ const PortfolioContent = () => {
           ================================ */}
           <div
             ref={ref}
-            className={`grid ${project.tag === "web"
-              ? "grid-cols-1 lg:grid-cols-[25%_50%_25%]"
-              : "grid-cols-1 md:grid-cols-1 lg:grid-cols-3"
-              } justify-between gap-7 pt-20 relative`}
+           className={`grid ${project.tag === "web"
+  ? "grid-cols-1 lg:grid-cols-[1fr_2fr_1fr]"
+  : "grid-cols-1 md:grid-cols-1 lg:grid-cols-3"
+  } justify-between gap-7 pt-20 relative`}
           >
             {/* Ellipse background SVG - mobile layout only */}
             {project?.tag !== 'web' && (
@@ -370,8 +370,8 @@ const PortfolioContent = () => {
           ================================ */}
           <div className='flex justify-center mt-4 sm:mt-9 relative z-3'>
             <div className='bg-[#FAFAFA] w-full   lg:w-[29%] border border-[#EEEEEE] rounded-xl p-4'>
-              <h3 className='text-center font-semibold text-[#333333] text-sm sm:text-base'>{project?.bottom.title}</h3>
-              <h3 className='text-center font-regular text-[#333333E5] text-sm sm:text-base mt-3'>{project?.bottom.desc}</h3>
+              <h3 className='text-left font-semibold text-[#333333] text-sm sm:text-base'>{project?.bottom.title}</h3>
+              <h3 className='text-left font-regular text-[#333333E5] text-sm sm:text-base mt-3'>{project?.bottom.desc}</h3>
             </div>
           </div>
 
@@ -587,9 +587,9 @@ const PortfolioContent = () => {
             <h3 className='text-white font-semibold text-lg sm:text-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out'>
               {p.title}
             </h3>
-            {p.description && (
+            {p.desc && (
               <p className='text-gray-300 text-sm mt-2 line-clamp-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out delay-75'>
-                {p.description}
+                {p.desc}
               </p>
             )}
           </div>

@@ -53,7 +53,9 @@ const SideContactItem = ({ icon, iconSm, hoverText, href, isFirst = false, isLas
 
 export default function SideContact() {
   return (
-    <div className='flex flex-row sm:flex-col fixed left-0 top-16 sm:top-20 z-10'>
+    // z-index bumped from z-10 to z-[9999] so this whole fixed component
+    // (including the WhatsApp button) always stays above every page section
+    <div className='flex flex-row sm:flex-col fixed left-0 top-16 sm:top-20 z-[9999]'>
       <SideContactItem
         icon={<PhoneCall className="w-5 h-5" />}
         iconSm={<PhoneCall className="w-3.5 h-3.5" />}
@@ -79,8 +81,8 @@ export default function SideContact() {
         isLast={true}
       />
 
-      {/* WhatsApp floating button — unchanged */}
-      <div className="group fixed bottom-[1.5rem] sm:bottom-[2.5rem] right-[1.5rem] sm:right-[2.5rem] z-50">
+      {/* WhatsApp floating button */}
+      <div className="group fixed bottom-[1.5rem] sm:bottom-[2.5rem] right-[1.5rem] sm:right-[2.5rem] z-[9999]">
         <div className="absolute -inset-4 sm:-inset-5 rounded-full bg-[#25D366]/30 animate-pulse-slow pointer-events-none" />
         <div className="absolute -inset-2 sm:-inset-3 rounded-full bg-[#25D366]/20 animate-pulse-slow pointer-events-none animation-delay-500" />
         <a

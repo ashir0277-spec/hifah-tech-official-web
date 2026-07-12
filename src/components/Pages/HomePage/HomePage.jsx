@@ -12,7 +12,7 @@ import Process from './Process'
 // import Portfolio from './Portfolio'
 import NewPorfolio from './NewPortfolio'
 import CoreValues from './CoreValues'
-import TechStack from './TechStack'
+// import TechStack from './TechStack'
 import TeamMembers from '../../Sections/TeamMembers/TeamMembers'
 import Engagement from '../../Sections/Engagement/Engagement'
 import WhyPartner from '../../Sections/WhyPartner/WhyPartner'
@@ -70,11 +70,11 @@ const HomePage = () => {
 
           </div>
           {/* <Portfolio/> */}
-        <Portfoliopage/>
+        <Portfoliopage showMoreButton={true} />
 
           <Process/>
 
-          <TechStack/>
+          {/* <TechStack/> */}
           <TeamMembers/>
           <div ref={registrationRef} className='overflow-hidden'>
           <Engagement/>

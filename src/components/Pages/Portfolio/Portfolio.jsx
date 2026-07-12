@@ -3,7 +3,7 @@ import Navbar from '../../Sections/Navbar/Navbar'
 import Footer from '../../Sections/Footer/Footer'
 import HeroPortfolio from './HeroPortfolio'
 import OurProjects from './OurProjects'
-import TechStack from '../HomePage/TechStack'
+// import TechStack from '../HomePage/TechStack'
 import Cta from '../../Sections/CtaWhite/CtaWhite'
 import SimilarProjects from './SimilarProjects'
 import Process from '../HomePage/Process'
@@ -39,7 +39,7 @@ const Portfolio = () => {
         </div>
         {/* <OurProjects/> */}
           
-                 <Portfoliopage/>
+                 <Portfoliopage showMoreButton={false} />
 
 
         {/* <div ref={registrationRef}>
@@ -58,7 +58,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               )}
-        <TechStack/>
+        {/* <TechStack/> */}
         <Process/>
         <Cta/>
         <div className='overflow-hidden'>

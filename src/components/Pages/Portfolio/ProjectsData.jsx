@@ -25,7 +25,7 @@ import onthedotMockup from '../../../assets/mockups2/mockups/Service Booking App
 
 // rafik
 
-const rafik = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1781877606/Abu_Rafiq_Hero_Section_mhk0i4.png'
+const rafik = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842882/ABU_RAFIK_BUTCHER_zmtlmz.png'
 const top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110136/top_cmiz5f.png'
 const rafik1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110135/1_phcirl.png'
 const rafik2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110135/2_canxmr.png'
@@ -33,7 +33,7 @@ const rafik3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110135/3_
 const cta = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110136/cta_ho1kwl.png'
 
 // afroneta
-const afroneta = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110136/thumbnail_t6qtwg.png'
+const afroneta = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842887/AfroNeta_cpswek.png'
 const topafro = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110139/top_nxbyrk.png'
 const afro1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110136/1_hjfkay.png'
 const afro2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110140/2_qgsrij.png'
@@ -41,7 +41,7 @@ const afro3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110141/3_m
 const ctaafro = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110135/cta_nqvesb.png'
 
 // onthedot
-const onthedot = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782200665/On_The_Dot_goksvm.png'
+const onthedot = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842888/Service_Booking_App_zi2i3n.png'
 const toponthedot = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782200669/top_qcg4m7.png'
 const onthedot1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782200654/1_kbiae1.png'
 const onthedot2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782200654/2_xygulf.png'
@@ -57,7 +57,7 @@ const gbc3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782802066/Grou
 const ctagbc = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782199496/cta_dwsa7p.png'
 
 // anipartna
-const anipartna = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110144/thumbnail_nxuhjy.png'
+const anipartna = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842882/ANIATPNA_Mobile_App_yspt0j.png'
 const topanipartna = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110148/top_hrlmtr.png'
 const anipartna1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110136/1_ysnkfs.png'
 const anipartna2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110137/2_l9d3ry.png'
@@ -65,7 +65,7 @@ const anipartna3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v178211013
 const ctaanipartna = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110140/cta_mg18hi.png'
 
 // auravpn
-const auravpn = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110145/thumbnail_iqcbmu.png'
+const auravpn = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842882/Aura_VPN_n49mw5.png'
 const topauravpn = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110144/top_rbsvoj.png'
 const auravpn1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110142/1_jhf1u7.png'
 const auravpn2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110147/2_nkniqg.png'
@@ -73,7 +73,7 @@ const auravpn3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110142/
 const ctaauravpn = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110143/cta_em8jzl.png'
 
 // Revealit
-const revealit_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782215558/Revealt_plduya.png'
+const revealit_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842886/Revealt_hpnmlu.png'
 const revealit_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782215557/Group_1686557090_yt1tir.png'
 const revealit1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782215557/Group_1686557167_humhqy.png'
 const revealit2 =  'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782215557/Group_1686557168_rfjtzn.png'
@@ -81,7 +81,7 @@ const revealit3 =   'https://res.cloudinary.com/dxsr1xve0/image/upload/v17822155
 const revealit4 =   'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782215557/Group_1686557181_aklf8q.png'
 
 // PakTruck
-const PakTruck_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217477/Hero_ulgf12.png'
+const PakTruck_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842885/PakTRuck_gngafd.png'
 const PakTruck_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217514/Main_Feature_bwyigm.png' 
 const PakTruck1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217472/Group_1686557167_voshjr.png'
 const PakTruck2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217473/Group_1686557168_afexb4.png'
@@ -89,7 +89,7 @@ const PakTruck3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217474
 const PakTruck4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217471/Bottam_jq76gs.png'
 
 //BlinkBack
-const BlinkBack_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217422/Hero_lh9yez.png'
+const BlinkBack_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842883/BlinkBack_rnjct0.png'
 const BlinkBack_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217424/Main_Feature_rejwro.png' 
 const BlinkBack1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217417/Group_1686557167_rcb7bm.png'
 const BlinkBack2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217419/Group_1686557168_d3vbqf.png'
@@ -98,7 +98,7 @@ const BlinkBack4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v178221741
 
 //Noly
 
-const noly = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782220271/Hero_acpikv.png'
+const noly = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842884/Noly_zajx8z.png'
 const noly_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782220275/Main_Feature_bc2prw.png'
 const noly1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782220262/Group_1686557167_mjrjey.png'
 const noly2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782220269/Group_1686557173_y7l9uw.png'
@@ -106,7 +106,7 @@ const noly3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782220266/Gro
 const noly4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782220260/Bottam_gp0ks9.png'
 
 //Flatty
-const flatty_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217382/Hero_jzaujk.png'
+const flatty_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842884/Flaty.pk_r8sxhu.png'
 const flatty_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217386/Main_Feature_d0mddh.png'
 const flatty1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217381/Group_1686557167_l4nibn.png'
 const flatty2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217381/Group_1686557168_ba38oh.png'
@@ -114,7 +114,7 @@ const flatty3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217381/G
 const flatty4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782217380/Bottam_vrnzi3.png'
 
 //G-Drive
-const GDrive_thumb = "https://res.cloudinary.com/dxsr1xve0/image/upload/v1782283241/Hero_nebbtn.png"
+const GDrive_thumb = "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842882/Gdrive_Final_rl26qk.png"
 const GDrive_top = "https://res.cloudinary.com/dxsr1xve0/image/upload/v1782283241/Main_Feature_zfi5pb.png"
 const GDrive1 = "https://res.cloudinary.com/dxsr1xve0/image/upload/v1782283240/Group_1686557167_twy83z.png"
 const GDrive2 = "https://res.cloudinary.com/dxsr1xve0/image/upload/v1782283240/Group_1686557168_otfgfk.png"
@@ -123,7 +123,7 @@ const GDrive4 = "https://res.cloudinary.com/dxsr1xve0/image/upload/v1782283240/B
 
 // MeCloset
 
-const MeCloset_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782545544/Hero_hs25ve.png'
+const MeCloset_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842884/MeCloset_kdtflk.png'
 const MeCloset_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782545544/Main_Feature_ngb5dt.png'
 const MeCloset1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782545544/Group_1686557167_wdz9le.png'
 const MeCloset2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782545543/Group_1686557173_lxajyz.png'
@@ -131,7 +131,7 @@ const MeCloset3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782545543
 const MeCloset4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782545543/Bottam_x8ywmz.png'
 
 // SafeChoice
-const SafeChoice_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782560352/Hero_xszv4u.png'
+const SafeChoice_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842886/SafeChoice_nk72vp.png'
 const SafeChoice_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782560357/Main_Feature_hroaa4.png'
 const SafeChoice1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782560323/Group_1686557167_gddxma.png'
 const SafeChoice2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782560323/Group_1686557173_hhoshy.png'
@@ -139,7 +139,7 @@ const SafeChoice3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17825603
 const SafeChoice4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782560323/Bottam_zxh9ih.png'
 
 //YazBoz
-const Yazboz_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782561771/Hero_j5nn7i.png'
+const Yazboz_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842887/YAZBOZ_weluk6.png'
 const Yazboz_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782561772/Main_Feature_uknnzr.png'
 const Yazboz1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782561766/Group_1686557167_hht69q.png'
 const Yazboz2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782561767/Group_1686557168_blifkf.png'
@@ -156,7 +156,7 @@ const FitMe_2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593237/2
 const FitMe_3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593237/3_aah9pa.png'
 
 // MEGO 
-const mego_thhumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593155/Hero_kjnw5h.png'
+const mego_thhumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842885/Mego_cu6ids.png'
 const mego_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593155/Main_Feature_zznzct.png'
 const mego_1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593154/1_nw8pmz.png'
 const mego_2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593153/2_dh9ien.png'
@@ -176,7 +176,7 @@ const MbTravel4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593209
 
 // UBK Towing 
 
-const UbkTowing_thumb  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816200/Hero_m0pkuo.png'
+const UbkTowing_thumb  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842975/UBK_Adman_Panel_c2pe1r.png'
 const UbkTowing_top  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816200/Main_Feature_niff0t.png'
 const UbkTowing1  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816197/1_gwew9b.png'
 const UbkTowing2  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816198/2_lkwbgk.png'
@@ -185,7 +185,7 @@ const UbkTowing3  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17828161
 
  // Field Trip 
  
- const FieldTrip_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816176/Hero_bxwsa2.png'
+ const FieldTrip_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842967/Field_trip_Landing_pages_Side_hq67p9.png'
  const FieldTrip_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816177/Main_Feature_xo6if2.png'
  const FieldTrip1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816178/Studio-Display_zgwtex.png'
  const FieldTrip2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816172/3_lunqdn.png'
@@ -198,7 +198,7 @@ const UbkTowing3  = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17828161
 
 // flaty web
 
-const flattyweb_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816181/Hero_hbbksj.png'
+const flattyweb_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842967/Flaty.pk_4_pan5rx.png'
 const flattyweb_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816183/Main_Feature_cdff4b.png'
 const flattyweb1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816180/1_g83grc.png'
 const flattyweb2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816180/2_tv230j.png'
@@ -213,7 +213,7 @@ const EarningDashboard3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17
 
 // Pak Truck 
  
-const pakTruck_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816189/Hero_jm7gcz.png'
+const pakTruck_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842973/Pak_Truck_2_nztuwr.png'
 const pakTruck_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816192/Main_Feature_cesskr.png'
 const pakTruck1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816189/1_uwdkab.png'
 const pakTruck2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816188/2_uvggg8.png'
@@ -221,7 +221,7 @@ const pakTruck3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816189
 
 // Supply King 
 
-const SupplyKing_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816195/Hero_egjcw1.png'
+const SupplyKing_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842975/Supplyking_hky20r.png'
 const SupplyKing_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816196/Main_Feature_hagb5u.png'
 const SupplyKing1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816192/1_ksnnya.png'
 const SupplyKing2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816193/2_cvl39s.png'
@@ -229,7 +229,7 @@ const SupplyKing3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17828161
 
 // We Sacle (WEB)
 
-const WeScale_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782914220/Desktop_-_25_xkjmkc.png'
+const WeScale_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842978/Wescale_slq16q.png'
 const WeScale_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816246/Main_Feature_jd65qy.png'
 const WeScale1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816242/1_vpbhvq.png'
 const WeScale2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816243/2_hppkuj.png'
@@ -237,14 +237,14 @@ const WeScale3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816243/
 
 // Visaera WorldWide 
 
-const visaera_thumb ='https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816204/Hero_zb2nxh.png'
+const visaera_thumb ='https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842977/Visaera_1_qr0qjf.png'
 const visaera_top ='https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816204/Main_Feature_buzcdb.png'
 const visaera1 ='https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816202/1_geoeww.png'
 const visaera2 ='https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816202/2_vaj5b8.png'
 const visaera3 ='https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816203/3_nqm2dt.png'
 
 // Developers Door (Web)
-const DevelopersDoor_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816121/Hero_waca6e.png'
+const DevelopersDoor_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842965/Developers_uv1oh8.png'
 const DevelopersDoor_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816120/Main_Feature_yt3jlk.png'
 const DevelopersDoor1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816120/1_iuko1t.png'
 const DevelopersDoor2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816120/2_rfmqoz.png'
@@ -252,7 +252,7 @@ const DevelopersDoor3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782
 
 // Glassgow Mobile Car Wash
 
-const Glassgow_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816186/Hero_iafnns.png'
+const Glassgow_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842972/Glasgow_mobile_car_wash_e3sbco.png'
 const Glassgow_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816187/Main_Feature_i4gnnt.png'
 const Glassgow1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816184/1_k0w0aj.png'
 const Glassgow2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816184/2_s0wees.png'
@@ -261,7 +261,7 @@ const Glassgow3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816185
 
 // BurnMobile Tyres 
 
-const BurnMobile_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593323/Hero_p1jmhs.png'
+const BurnMobile_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842965/Brum_mobile_Tyre_hlprm1.png'
 const BurnMobile_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593325/Main_Feature_fhdryy.png'
 const BurnMobile1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593321/1_q3jmab.png'
 const BurnMobile2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593321/2_tz4lh5.png'
@@ -269,7 +269,7 @@ const BurnMobile3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17835933
 
  // SpecOptics //
 
- const Specoptics_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593437/Hero_i90q44.png'
+ const Specoptics_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842977/SpecOptic_cioqmq.png'
  const Specoptics_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593441/Main_Feature_me8qjt.png'
  const Specoptics1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593434/1_yx2qft.png'
  const Specoptics2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593435/2_k68jaj.png'
@@ -277,7 +277,7 @@ const BurnMobile3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v17835933
 
 //  Mobile Emissions
 
-const MobileEmissions_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593280/Hero_cgixc2.png'
+const MobileEmissions_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842966/Desktop_-_36_qvrncf.png'
 const MobileEmissions_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593280/Main_Feature_zrlfna.png'
 const MobileEmissions1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593278/1_zazhmv.png'
 const MobileEmissions2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593279/2_cpnylc.png'
@@ -285,28 +285,28 @@ const MobileEmissions3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v178
 
 
 // OXZ Market
-const OXZMarket_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593354/Hero_u3shav.png'
+const OXZMarket_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842969/Oxmmarket_hrgctj.png'
 const OXZMarke_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593356/Main_Feature_dn2frb.png'
 const OXZMarket1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593351/1_udwdbu.png'
 const OXZMarket2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593351/2_mbdkr5.png'
 const OXZMarket3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593353/3_l1fibk.png'
 
 // Sohagan
-const sohagan_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604492/Hero_egxqta.png'
+const sohagan_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842972/Sohaagan_hxuurb.png'
 const sohagan_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604497/Main_Feature_tz2rhq.png'
 const sohagan1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604480/1_ekumy0.png'
 const sohagan2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604482/2_wa8isp.png'
 const sohagan3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604486/3_axdiec.png'
 
 // Diamond Yarn 
-const DiamondYarn_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604538/Hero_gtalg5.png'
+const DiamondYarn_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842973/Diamond_Yarm_brenll.png'
 const DiamondYarn_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604544/Main_Feature_hdgdwc.png'
 const DiamondYarn1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604525/1_tc9s9i.png'
 const DiamondYarn2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604529/2_fcts96.png'
 const DiamondYarn3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604533/3_fcatrs.png'
 
 // vendCommm
-const VendComm_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604641/Hero_gqrhxv.png'
+const VendComm_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842979/VendComm_Landing_Page_ry98uz.png'
 const VendComm_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604648/Main_Feature_lksnur.png'
 const VendComm1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604626/1_o7flih.png'
 const VendComm2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604630/2_lkry8c.png'
@@ -314,7 +314,7 @@ const VendComm3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604635
 
 
 // vendcomm Dashbaord 
-const VendCommDashboard_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606314/Hero_b5kqak.png'
+const VendCommDashboard_hero = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842976/VendComm_Dashboard_xuugrm.png'
 const VendCommDashboard_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606321/Main_Feature_bnqust.png'
 const VendCommDashboard1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606295/1_vidqgd.png'
 const VendCommDashboard2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606298/2_tvp9zf.png'
@@ -909,7 +909,7 @@ const ProjectsData = {
       topMedia: topgbc,
       btn1Color : '#bf6900',
       btn2Color : '#bf6900',
-      btn1: 'Upcooming Meetings',
+      btn1: 'Upcoming Meetings',
       btn2: 'Top Mentors',
       leftContent: [
         {
@@ -1010,7 +1010,7 @@ const ProjectsData = {
       btn1Color : '#099684',
       btn2Color : '#006EDD',
       btn1: 'Browse Businesses',
-      btn2: '',
+      btn2: 'Featured partnership',
       leftContent: [
         {
             title: 'Profile Verification & Setup',
@@ -2155,7 +2155,9 @@ const ProjectsData = {
    "ubk-towing": {
   tag: 'web',
   color: '#BF6900',
-  shadeColor: '#BF690066',
+  shadeColor1: '#F6902199',
+  shadeColor2: '#3091C966',
+ 
   thumbnail: UbkTowing_thumb,
   topMedia: UbkTowing_top,
 
@@ -2211,24 +2213,24 @@ const ProjectsData = {
     },
   ],
 
-  similarProjects: [
+ similarProjects: [
     {
         id: "developers-door",
         title: "Developers Door",
-        desc: "",
-        image: DevelopersDoor_thumb,
+        desc: "A modern platform for developers to learn, showcase projects, and explore careers.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816121/Tanbnil_qtlfyd.png',
     },
     {
         id: "visaera",
         title: "Visaera Worldwide",
-        desc: "",
-        image: visaera_thumb,
+        desc: "Access global visa guidance, applications, and travel requirements in one platform.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816205/Tanbnil_idqvvd.png',
     },
     {
         id: "pak-truck",
         title: "Pak Truck",
-        desc: "",
-        image: PakTruck_thumb,
+        desc: "A responsive logistics website showcasing trucking services, fleet solutions, and business operations.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816195/Tanbnil_uurjnc.png',
     },
 ],
 },
@@ -2237,7 +2239,8 @@ const ProjectsData = {
 "supply-king": {
     tag: 'web',
     color: '#016533',
-    shadeColor: '#FC9B0466',
+    shadeColor1: '#EF861180',
+    shadeColor2: '#BC1E1366',
 
     thumbnail: SupplyKing_thumb,
     topMedia: SupplyKing_top,
@@ -2297,22 +2300,25 @@ const ProjectsData = {
     ],
 
     similarProjects: [
-        {
-            id: 'pak-truck',
-            title: 'Pak Truck',
-            image: pakTruck_thumb,
-        },
-        {
-            id: 'ubk-towing',
-            title: 'UBK Towing',
-            image: UbkTowing_thumb,
-        },
-        {
-            id: 'earning-dashboard',
-            title: 'Earning Dashboard',
-            image: EarningDashboard_thumb,
-        },
-    ]
+    {
+        id: 'pak-truck',
+        title: 'Pak Truck',
+        desc: "A responsive logistics website for trucking and fleet solutions.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816195/Tanbnil_uurjnc.png',
+    },
+    {
+        id: 'ubk-towing',
+        title: 'UBK Towing',
+        desc: "Streamline transportation with vehicle management and inspections.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816201/Tanbnill_lb3ckm.png',
+    },
+    {
+        id: 'earning-dashboard',
+        title: 'Earning Dashboard',
+        desc: "Monitor revenue and financial performance in real-time.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816167/Add_main_Dashboard_-_Tanbnil_p7awef.png',
+    },
+]
 },
 
 // We Scale Web 
@@ -2320,7 +2326,8 @@ const ProjectsData = {
 "we-scale-hq": {
     tag: 'web',
     color: '#016533',
-    shadeColor: '#FC9B0466',
+    shadeColor1: '#443FFF99',
+    shadeColor2: '#908DFF99',
 
     thumbnail: WeScale_thumb,
     topMedia: WeScale_top,
@@ -2379,26 +2386,34 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: 'earning-dashboard',
-            title: 'Earning Dashboard',
-            image: EarningDashboard_thumb,
-        },
-       
-        {
-            id: 'supply-king',
-            title: 'Supply King',
-            image: SupplyKing_thumb,
-        },
-    ]
+   similarProjects: [
+    {
+        id: 'earning-dashboard',
+        title: 'Earning Dashboard',
+        desc: "Monitor revenue and financial performance in real-time.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816167/Add_main_Dashboard_-_Tanbnil_p7awef.png',
+    },
+    {
+        id: 'supply-king',
+        title: 'Supply King',
+        desc: "Simplify bulk ordering, supply management, and order tracking.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816196/Supply_king_kriepq.png',
+    },
+    {
+        id: 'flaty-web',
+        title: 'Flaty.pk',
+        desc: "Explore, buy, and sell properties with trusted listings and secure transactions.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816184/Tanbnil_yujxor.png',
+    },
+]
 },
 
 // flatty Web 
 "flaty-web": {
     tag: 'web',
     color: '#016533',
-    shadeColor: '#FC9B0466',
+    shadeColor1: '#FFCB4D99',
+    shadeColor2: '#FC9B0466',
 
     thumbnail: flattyweb_thumb,
     topMedia: flattyweb_top,
@@ -2457,23 +2472,26 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: 'pak-truck',
-            title: 'Pak Truck',
-            image: pakTruck_thumb,
-        },
-        {
-            id: 'we-scale-hq',
-            title: 'We Scale HQ',
-            image: WeScale_thumb,
-        },
-        {
-            id: 'supply-king',
-            title: 'Supply King',
-            image: SupplyKing_thumb,
-        },
-    ]
+   similarProjects: [
+    {
+        id: 'pak-truck',
+        title: 'Pak Truck',
+        desc: "A responsive logistics website for trucking and fleet solutions.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816195/Tanbnil_uurjnc.png',
+    },
+    {
+        id: 'we-scale-hq',
+        title: 'We Scale HQ',
+        desc: "Fix sales leaks, train teams, and scale business growth faster.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816247/Tanbnil_aqcabk.png',
+    },
+    {
+        id: 'supply-king',
+        title: 'Supply King',
+        desc: "Simplify bulk ordering, supply management, and order tracking.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816196/Supply_king_kriepq.png',
+    },
+]
 },
 
 // Visaera WorldWide 
@@ -2481,7 +2499,8 @@ const ProjectsData = {
 "visaera": {
     tag: 'web',
     color: '#016533',
-    shadeColor: '#FC9B0466',
+    shadeColor1: '#C4763E80',
+    shadeColor2: '#1C949566',
 
     thumbnail: visaera_thumb,
     topMedia: visaera_top,
@@ -2540,23 +2559,26 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: 'flaty-web',
-            title: 'Flaty Dashboard',
-            image: flattyweb_thumb,
-        },
-        {
-            id: 'we-scale-hq',
-            title: 'We Scale HQ',
-            image: WeScale_thumb,
-        },
-        {
-            id: 'supply-king',
-            title: 'Supply King',
-            image: SupplyKing_thumb,
-        },
-    ]
+   similarProjects: [
+    {
+        id: 'flaty-web',
+        title: 'Flaty Dashboard',
+        desc: "Explore, buy, and sell properties with trusted listings and secure transactions.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816184/Tanbnil_yujxor.png',
+    },
+    {
+        id: 'we-scale-hq',
+        title: 'We Scale HQ',
+        desc: "Fix sales leaks, train teams, and scale business growth faster.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816247/Tanbnil_aqcabk.png',
+    },
+    {
+        id: 'supply-king',
+        title: 'Supply King',
+        desc: "Simplify bulk ordering, supply management, and order tracking.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816196/Supply_king_kriepq.png',
+    },
+]
 },
 
 // Field Trip Web 
@@ -2564,7 +2586,8 @@ const ProjectsData = {
 "fieldtrip-link": {
     tag: 'web',
     color: '#2F80ED',
-    shadeColor: '#2F80ED66',
+    shadeColor1: '#FF19194D',
+    shadeColor1: '#FFAE004D',
     thumbnail: FieldTrip_thumb,
     topMedia: FieldTrip_top,
     heroTag: 'Dashboard Showcase',
@@ -2619,23 +2642,26 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: 'ubk-towing',
-            title: 'UBK Towing',
-            image: UbkTowing_thumb,
-        },
-        {
-            id: 'earning-dashboard',
-            title: 'Earning Dashboard',
-            image: EarningDashboard_thumb,
-        },
-        {
-            id: 'we-scale-hq',
-            title: 'We Scale HQ',
-            image: WeScale_thumb,
-        },
-    ]
+   similarProjects: [
+    {
+        id: 'ubk-towing',
+        title: 'UBK Towing',
+        desc: 'Streamline transportation with vehicle management and inspections.',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816201/Tanbnill_lb3ckm.png',
+    },
+    {
+        id: 'earning-dashboard',
+        title: 'Earning Dashboard',
+        desc: 'Monitor revenue and financial performance in real-time.',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110146/thumbnail_eh8biy.png',
+    },
+    {
+        id: 'we-scale-hq',
+        title: 'We Scale HQ',
+        desc: 'Fix sales leaks, train teams, and scale business growth faster.',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816247/Tanbnil_aqcabk.png',
+    },
+]
 },
 
 // Earning Dashbaord
@@ -2643,7 +2669,8 @@ const ProjectsData = {
 "earning-dashboard": {
     tag: 'web',
     color: '#1E88E5',
-    shadeColor: '#1E88E566',
+    shadeColor1: '#3091C999',
+    shadeColor2: '#00C26B66',
     thumbnail: EarningDashboard_thumb,
     topMedia: EarningDashboard_top,
     heroTag: 'Dashboard Showcase',
@@ -2698,30 +2725,34 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: 'flaty-web',
-            title: 'Flaty.pk',
-            image: flattyweb_thumb,
-        },
-        {
-            id: 'supply-king',
-            title: 'Supply King',
-            image: SupplyKing_thumb,
-        },
-        {
-            id: 'we-scale-hq',
-            title: 'We Scale HQ',
-            image: WeScale_thumb,
-        },
-    ]
+   similarProjects: [
+    {
+        id: 'flaty-web',
+        title: 'Flaty.pk',
+        desc: "Explore, buy, and sell properties with trusted listings and secure transactions.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816184/Tanbnil_yujxor.png',
+    },
+    {
+        id: 'supply-king',
+        title: 'Supply King',
+        desc: "Simplify bulk ordering, supply management, and order tracking.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816196/Supply_king_kriepq.png',
+    },
+    {
+        id: 'we-scale-hq',
+        title: 'We Scale HQ',
+        desc: "Fix sales leaks, train teams, and scale business growth faster.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816247/Tanbnil_aqcabk.png',
+    },
+]
 },
 // Pak Truck 
 
 "pak-truck": {
     tag: 'web',
     color: '#016533',
-    shadeColor: '#FC9B0466',
+    shadeColor1: '#01663533',
+    shadeColor2: '#01663566',
 
     thumbnail: pakTruck_thumb,
     topMedia: pakTruck_top,
@@ -2780,21 +2811,26 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: 'ubk-towing',
-            title: 'UBK Towing',
-            desc: '',
-            image: UbkTowing_thumb ,
-        },
-        {
-            id: 'earning-dashboard',
-            title: 'Earning Dashboard',
-            desc: '',
-            image: EarningDashboard_thumb,
-        },
-       
-    ]
+   similarProjects: [
+    {
+        id: 'ubk-towing',
+        title: 'UBK Towing',
+        desc: "Streamline transportation with vehicle management and inspections.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816201/Tanbnill_lb3ckm.png',
+    },
+    {
+        id: 'earning-dashboard',
+        title: 'Earning Dashboard',
+        desc: "Monitor revenue and financial performance in real-time.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816167/Add_main_Dashboard_-_Tanbnil_p7awef.png',
+    },
+    {
+        id: 'developers-door',
+        title: 'Developers Door',
+        desc: "A modern platform for developers to learn and showcase projects.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816121/Tanbnil_qtlfyd.png',
+    },
+]
 },
 
 // Developers Door
@@ -2803,7 +2839,8 @@ const ProjectsData = {
     tag: "web",
 
     color: "#4A90E2",
-    shadeColor: "#4A90E266",
+    shadeColor1: "#35C6FF99",
+    shadeColor2: "#A4E2FF66",
 
     thumbnail: DevelopersDoor_thumb,
     topMedia: DevelopersDoor_top,
@@ -2862,23 +2899,26 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: "we-scale-hq",
-            title: "We Scale HQ",
-            image: WeScale_thumb,
-        },
-        {
-            id: "supply-king",
-            title: "Supply King",
-            image: SupplyKing_thumb,
-        },
-        {
-            id: "visaera",
-            title: "Visaera Worldwide",
-            image: visaera_thumb,
-        },
-    ],
+   similarProjects: [
+    {
+        id: "we-scale-hq",
+        title: "We Scale HQ",
+        desc: "Fix sales leaks, train teams, and scale business growth faster.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816247/Tanbnil_aqcabk.png',
+    },
+    {
+        id: "supply-king",
+        title: "Supply King",
+        desc: "Simplify bulk ordering, supply management, and order tracking.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816196/Supply_king_kriepq.png',
+    },
+    {
+        id: "visaera",
+        title: "Visaera Worldwide",
+        desc: "Access global visa guidance, applications, and travel requirements in one platform.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816205/Tanbnil_idqvvd.png',
+    },
+]
 },
 
 // Glasglow car Wash 
@@ -2886,7 +2926,8 @@ const ProjectsData = {
     tag: "web",
 
     color: "#37A44B",
-    shadeColor: "#37A44B66",
+    shadeColor1: "#35C6FF99",
+    shadeColor2: "#35C6FF66",
 
     thumbnail: Glassgow_thumb,
     topMedia: Glassgow_top,
@@ -2946,22 +2987,25 @@ const ProjectsData = {
     ],
 
     similarProjects: [
-        {
-            id: "developers-door",
-            title: "Developers Door",
-            image: DevelopersDoor_thumb,
-        },
-        {
-            id: "visaera",
-            title: "Visaera Worldwide",
-            image: visaera_thumb,
-        },
-        {
-            id: "pak-truck",
-            title: "Pak Truck",
-            image: PakTruck_thumb,
-        },
-    ],
+    {
+        id: "developers-door",
+        title: "Developers Door",
+        desc: "A modern platform for developers to learn, showcase projects, and explore careers.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816121/Tanbnil_qtlfyd.png',
+    },
+    {
+        id: "visaera",
+        title: "Visaera Worldwide",
+        desc: "Access global visa guidance, applications, and travel requirements in one platform.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816205/Tanbnil_idqvvd.png',
+    },
+    {
+        id: "pak-truck",
+        title: "Pak Truck",
+        desc: "A responsive logistics website for trucking and fleet solutions.",
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816195/Tanbnil_uurjnc.png',
+    },
+]
 },
 
 // SpecOptics //
@@ -2970,7 +3014,8 @@ const ProjectsData = {
     tag: "web",
 
     color: "#4A90D9",
-    shadeColor: "#4A90D966",
+    shadeColor1: "#5099FC4D",
+    shadeColor2: "#3091C966",
 
     thumbnail: Specoptics_thumb,
     topMedia: Specoptics_top,
@@ -2990,10 +3035,6 @@ const ProjectsData = {
             title: "Personalized Frame Fittings",
             desc: "Select from customized lens shapes adjustments designed accurately to ensure your absolute facial comfort.",
         },
-        {
-            title: "Expert Eye Care",
-            desc: "Benefit from professional medical checkup routines scheduled intentionally to protect your lasting vision health.",
-        },
     ],
 
     rightContent: [
@@ -3008,8 +3049,8 @@ const ProjectsData = {
     ],
 
     bottom: {
-        title: "Read Our Latest Expert Blogs",
-        desc: "Explore active eye care advice and total vision trends instantly. Read interactive medical lifestyle articles to optimize your entire optical health system.",
+        title: "Expert Eye Care",
+        desc: "Benefit from professional medical checkup routines scheduled intentionally to protect your lasting vision health.",
     },
 
     details: [
@@ -3034,25 +3075,25 @@ const ProjectsData = {
     ],
 
     similarProjects: [
-    {
-        id: 'fitme',
-        title: 'FitMe - AI Outfit Stylist',
-        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
-        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
-    },
-    {
-        id: 'burn-mobile-tyres',
-        title: 'Burn Mobile Tyres',
-        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593329/Tanbnil_nxxbnr.png',
-        description: '24/7 emergency mobile tyre fitting service across Birmingham with RAC-approved technicians and instant roadside assistance.',
-    },
-    {
-        id: 'mobile-emissions',
-        title: 'Mobile Emissions Testing',
-        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
-        description: 'Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.',
-    },
-],
+        {
+            id: 'fitme',
+            title: 'FitMe - AI Outfit Stylist',
+            desc: 'AI-powered wardrobe app for smart outfit curation and planning.',
+            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
+        },
+        {
+            id: 'burn-mobile-tyres',
+            title: 'Burn Mobile Tyres',
+            desc: '24/7 emergency mobile tyre fitting across Birmingham.',
+            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593329/Tanbnil_nxxbnr.png',
+        },
+        {
+            id: 'mobile-emissions',
+            title: 'Mobile Emissions Testing',
+            desc: 'On-site emission inspections for heavy trucks across the GTA.',
+            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
+        },
+    ],
 },
 
 
@@ -3063,7 +3104,8 @@ const ProjectsData = {
     tag: "web",
 
     color: "#FF5722",
-    shadeColor: "#FF572266",
+    shadeColor1: "#00008B4D",
+    shadeColor2: "#3091C966",
 
     thumbnail: BurnMobile_thumb,
     topMedia: BurnMobile_top,
@@ -3126,29 +3168,30 @@ const ProjectsData = {
     {
         id: 'mobile-emissions',
         title: 'Mobile Emissions Testing',
+        desc: 'On-site emission inspections for heavy trucks across the GTA.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png',
-        description: 'Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.',
     },
     {
         id: 'fitme',
         title: 'FitMe - AI Outfit Stylist',
+        desc: 'AI-powered wardrobe app for smart outfit curation and planning.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
-        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
     },
     {
         id: 'specoptics',
         title: 'SpecOptics - Premium Eyewear',
+        desc: 'Stylish frames, designer brands, and expert eye care online.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
-        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
     },
-],
+]
 },
 
 // Mobile Emissions
 "mobile-emissions": {
     tag: 'web',
     color: '#2E7D32',
-    shadeColor: '#2E7D3266',
+    shadeColor1: '#5099FC4D',
+    shadeColor2: '#3091C966',
 
     thumbnail: MobileEmissions_thumb,
     topMedia: MobileEmissions_top,
@@ -3207,26 +3250,26 @@ const ProjectsData = {
         },
     ],
 
- similarProjects: [
+similarProjects: [
     {
         id: 'burn-mobile-tyres',
         title: 'Burn Mobile Tyres',
+        desc: '24/7 emergency mobile tyre fitting across Birmingham.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593329/Tanbnil_nxxbnr.png',
-        description: '24/7 emergency mobile tyre fitting service across Birmingham with RAC-approved technicians and instant roadside assistance.',
     },
     {
         id: 'specoptics',
         title: 'SpecOptics - Premium Eyewear',
+        desc: 'Stylish frames, designer brands, and expert eye care online.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
-        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
     },
     {
         id: 'fitme',
         title: 'FitMe - AI Outfit Stylist',
+        desc: 'AI-powered wardrobe app for smart outfit curation and planning.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
-        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
     },
-],
+]
 },
 
 // OXZ Market 
@@ -3234,7 +3277,8 @@ const ProjectsData = {
 "oxz-market": {
     tag: 'web',
     color: '#D4A017',
-    shadeColor: '#D4A01766',
+    shadeColor1: '#5099FC4D',
+    shadeColor2: '#3091C966',
 
     thumbnail: OXZMarket_hero,
     topMedia: OXZMarke_top,
@@ -3293,32 +3337,33 @@ const ProjectsData = {
         },
     ],
 
-   similarProjects: [
+  similarProjects: [
     {
         id: 'mb-travel',
         title: 'MB Travel - Visa & Immigration',
-        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593215/Hero_arfdth.png',
-        description: 'Smart immigration platform for digital visa applications, secure document uploads, and real-time application tracking worldwide.',
+        desc: 'Smart visa applications with secure document uploads and tracking.',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783669931/MB_Travel_Tanbnil_kyswqf.png',
     },
     {
         id: 'mego',
         title: 'MEGO - Buy & Sell Marketplace',
+        desc: 'Classified marketplace for smartphones, cars, and properties.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593156/Tanbnil_yoqi3j.png',
-        description: 'Classified marketplace to discover smartphones, automobiles, and properties with verified sellers and real-time chat.',
     },
     {
         id: 'specoptics',
         title: 'SpecOptics - Premium Eyewear',
+        desc: 'Stylish frames, designer brands, and expert eye care online.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
-        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
     },
-],
+]
 },
 // Sohagan
 "sohagan": {
     tag: 'web',
     color: '#B8860B',
-    shadeColor: '#B8860B66',
+    shadeColor1: '#E4A4004D',
+    shadeColor2: '#E4A40066',
 
     thumbnail: sohagan_hero,
     topMedia: sohagan_top,
@@ -3381,29 +3426,30 @@ const ProjectsData = {
     {
         id: 'specoptics',
         title: 'SpecOptics - Premium Eyewear',
+        desc: 'Stylish frames, designer brands, and expert eye care online.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
-        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
     },
     {
         id: 'fitme',
         title: 'FitMe - AI Outfit Stylist',
+        desc: 'AI-powered wardrobe app for smart outfit curation and planning.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
-        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
     },
-   {
-    id: "diamond-yarn",
-    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png",
-    title: "Diamond Yarn - Premium Yarns",
-    description: "Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.",
-},
-],
+    {
+        id: "diamond-yarn",
+        title: "Diamond Yarn - Premium Yarns",
+        desc: 'Luxury knitting threads, handcrafted needles, and curated patterns.',
+        image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png",
+    },
+]
 },
 
 // Diamond Yarn 
 "diamond-yarn": {
     tag: 'web',
     color: '#6A1B9A',
-    shadeColor: '#6A1B9A66',
+    shadeColor1: '#8958804D',
+    shadeColor2: '#8958804D',
 
     thumbnail: DiamondYarn_hero,
     topMedia: DiamondYarn_top,
@@ -3466,29 +3512,30 @@ const ProjectsData = {
     {
         id: 'sohagan',
         title: 'Sohagan - Luxury Jewellery',
+        desc: 'Timeless handcrafted bridal jewellery and premium gold collections.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png',
-        description: 'Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.',
     },
     {
         id: 'specoptics',
         title: 'SpecOptics - Premium Eyewear',
+        desc: 'Stylish frames, designer brands, and expert eye care online.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
-        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
     },
     {
         id: 'fitme',
         title: 'FitMe - AI Outfit Stylist',
+        desc: 'AI-powered wardrobe app for smart outfit curation and planning.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png',
-        description: 'AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.',
     },
-],
+]
 },
 
 // VendComm
 "vendcomm": {
     tag: 'web',
     color: '#0D47A1',
-    shadeColor: '#0D47A166',
+    shadeColor1: '#3182ED4D',
+    shadeColor2: '#3182ED4D',
 
     thumbnail: VendComm_hero,
     topMedia: VendComm_top,
@@ -3551,29 +3598,30 @@ const ProjectsData = {
     {
         id: 'diamond-yarn',
         title: 'Diamond Yarn - Premium Yarns',
+        desc: 'Luxury knitting threads, handcrafted needles, and curated patterns.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png',
-        description: 'Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.',
     },
     {
         id: 'sohagan',
         title: 'Sohagan - Luxury Jewellery',
+        desc: 'Timeless handcrafted bridal jewellery and premium gold collections.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png',
-        description: 'Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.',
     },
     {
         id: 'specoptics',
         title: 'SpecOptics - Premium Eyewear',
+        desc: 'Stylish frames, designer brands, and expert eye care online.',
         image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png',
-        description: 'Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.',
     },
-],
+]
 },
 
 // vendcomm Dashbaord 
 "vendcomm-dashboard": {
     tag: 'web',
     color: '#1565C0',
-    shadeColor: '#1565C066',
+    shadeColor1: '#3182ED66',
+    shadeColor2: '#3182ED4D',
 
     thumbnail: VendCommDashboard_hero,
     topMedia: VendCommDashboard_top,
@@ -3632,26 +3680,26 @@ const ProjectsData = {
         },
     ],
 
-    similarProjects: [
-        {
-            id: 'vendcomm',
-            title: 'VendComm - Event Management',
-            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604655/Tanbnill_iy8ld7.png',
-            description: 'Centralize invoices, manage vendor communications, track event timelines, and streamline team coordination on one powerful platform.',
-        },
-        {
-            id: 'diamond-yarn',
-            title: 'Diamond Yarn - Premium Yarns',
-            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png',
-            description: 'Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.',
-        },
-        {
-            id: 'sohagan',
-            title: 'Sohagan - Luxury Jewellery',
-            image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png',
-            description: 'Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.',
-        },
-    ],
+   similarProjects: [
+    {
+        id: 'vendcomm',
+        title: 'VendComm - Event Management',
+        desc: 'Centralize invoices, manage vendor communications, and track events.',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604655/Tanbnill_iy8ld7.png',
+    },
+    {
+        id: 'diamond-yarn',
+        title: 'Diamond Yarn - Premium Yarns',
+        desc: 'Luxury knitting threads, handcrafted needles, and curated patterns.',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png',
+    },
+    {
+        id: 'sohagan',
+        title: 'Sohagan - Luxury Jewellery',
+        desc: 'Timeless handcrafted bridal jewellery and premium gold collections.',
+        image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png',
+    },
+]
 },
 
 

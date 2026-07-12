@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import { ArrowUpRight } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import { Link, useNavigate } from 'react-router-dom';
+
 // mobile app
 import fitme from '../../../assets/mockups2/mockups/fitme.jpeg'
 import gbc from '../../../assets/mockups2/mockups/gbc.png'
@@ -58,9 +60,6 @@ import meqr from '../../../assets/web/web/me-qr.png'
 import tutor from '../../../assets/web/web/tutor-site.png'
 import oxmmarket from '../../../assets/web/web/oxmmarket.png'
 import glassgow from '../../../assets/web/web/glasgow-mobile.png'
-// import visaera from '../../../assets/web/.png'
-
-import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 // Fisher-Yates shuffle — returns a new shuffled array, never mutates the original
 const shuffleArray = (array) => {
@@ -72,7 +71,9 @@ const shuffleArray = (array) => {
     return arr;
 };
 
-const Portfoliopage = () => {
+const Portfoliopage = ({ showMoreButton = true }) => {
+    
+    const navigate = useNavigate();
 
     const images = [
     // app 
@@ -136,12 +137,6 @@ const projects = {
             title: 'revealit',
             description: "RevealIt scans products to explain ingredients, allergens, and safety insights.",
         },
-        // {
-        //     id: 'zipzap',
-        //     image: zipzap,
-        //     title: 'zipzap talk',
-        //     description: "Zipzap is a smart language exchange app that helps users learn new languages for free. It offers engaging conversation practice, vocabulary tools, and premium features for advanced learning and personalized progress tracking.",
-        // },
         {
             id: 'noly',
             image: noly,
@@ -166,74 +161,24 @@ const projects = {
             title: 'blink back',
             description: "BlinkBack helps users capture and relive special moments with ease.",
         },
-        //  {
-        //     id: 'fitme',
-        //     image: fitme,
-        //     title: 'Fitme Stylish',
-        //     description: "Fitme Stylish is global AI-powered fashion plateform that helps users visualize outfits, style their wardrobe, and receive peronalized daily outfit sugestions",    
-        // },
-        // {
-        //     id: 'blush-lounge',
-        //     image: blush,
-        //     title: 'blush lounge',
-        //     description: "Blush Lounge to bring dining, entertainment, and engagement together featuring exclusive lounge menus, exciting games, event access, and a rewarding points system that keeps every visit memorable.",
-        // },
-        // {
-        //     id: 'filsx',
-        //     image: filsx,
-        //     title: 'filx digital wallet',
-        //     description: "FilsX Digital Wallet empowers you to send, receive, and manage money securely anytime, anywhere. Enjoy instant transactions, smart budgeting tools, and a seamless digital experience designed for your everyday financial freedom.",
-        // },
-       
-        // {
-        //     id: 'blockatie',
-        //     image: BLOCKATIE,
-        //     title: 'blockatie',
-        //     description: "Blockatie is a modern delivery and logistics platform designed to simplify the shipping process for both clients and drivers. The app allows users to easily create and manage shipments, track delivery progress in real time, and stay updated with detailed order insights.", 
-        // },
         {
             id: 'flaty',
             image: flaty,
             title: 'Flaty.pk',
             description: "Flaty lets users buy, sell, and explore properties with trusted listings and secure transactions.", 
         },
-        // {
-        //     id: 'harmonized',
-        //     image: harmon,
-        //     title: 'harmonized',
-        //     description: "Harmonized is a modern dating app built to explore profiles and connect effortlessly through smart matching and location-based search.",
-        // },
         {
             id: 'meCloset',
             image: meCloset,
             title: 'Me Closet',
             description: "MeCloset helps users organize outfits, create clothing pairs, and plan looks.", 
         },
-
          {
     id: "fitme",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png",
     title: "FitMe - AI Outfit Stylist",
     description: "AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.",
 },
-        // {
-        //     id: 'mego',
-        //     image: mego,
-        //     title: 'mego',
-        //     description: "A secure and seamless digital marketplace for effortless online buying and selling, featuring a built-in reward system to enhance user engagement and benefits.", 
-        // },
-        // {
-        //     id: 'quickly',
-        //     image: quickly,
-        //     title: 'quickly',
-        //     description: "Quickly brings together books, podcasts, blogs, and news in one intelligent platform. With AI-generated summaries, translations, and audio listening options, it transforms how you consume information.", 
-        // },
-        // {
-        //     id: 'healthful',
-        //     image: helth,
-        //     title: 'so healthful',
-        //     description: "An AI-powered health app for seamless connections, medication tracking, health record management, and real-time vitals monitoring with smartwatch integration.",  
-        // },
         {
     id: 'safe-choice',
     image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782726418/Hand_and_iPhone_16_Pro_gmthdn.png',
@@ -246,32 +191,21 @@ const projects = {
     title: 'Yazboz',
     description: "Yazboz tracks Okey scores, live matches, and complete game history with real-time updates.",
 },
-
 {
     id: "mego",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593156/Tanbnil_yoqi3j.png",
     title: "MEGO - Buy & Sell Marketplace",
     description: "Classified marketplace to discover smartphones, automobiles, and properties with verified sellers and real-time chat.",
 },
-
 {
     id: "mb-travel",
-    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593215/Hero_arfdth.png",
+    image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783669931/MB_Travel_Tanbnil_kyswqf.png",
     title: "MB Travel - Visa & Immigration",
     description: "Smart immigration platform for digital visa applications, secure document uploads, and real-time application tracking worldwide.",
 },
-
-
-        
     ],
 
     "UI / UX Design": [
-        // {
-        //     id: 'blush-lounge',
-        //     image: blush,
-        //     title: 'blush lounge',
-        //     description: "Blush Lounge to bring dining, entertainment, and engagement together featuring exclusive lounge menus, exciting games, event access, and a rewarding points system that keeps every visit memorable.",
-        // },
         {
             id: 'gbc',
             image: gbc,
@@ -290,12 +224,6 @@ const projects = {
             title: 'supply king',
             description: "Simplifies bulk ordering, supply management, and reliable order tracking.",
         },
-        // {
-        //     id: "vendcommm",
-        //     image: web19,
-        //     title: 'vendcomm',
-        //     description: "VendComm  simplifies collaboration between vendors and event managers with centralized dashboards, automated invoicing, real-time communication, and progress tracking, ensuring every campaign runs efficiently from planning to completion.",
-        // },
         {
             id: 'afroneta',
             image: AfroNeta,
@@ -314,24 +242,12 @@ const projects = {
             title: 'we scale hq',
             description: "Fix sales leaks, train teams, and scale faster with We Scale HQ.",
         },
-        // {
-        //     id: 'zipzap',
-        //     image: zipzap,
-        //     title: 'zipzap talk',
-        //     description: "Zipzap is a smart language exchange app that helps users learn new languages for free. It offers engaging conversation practice, vocabulary tools, and premium features for advanced learning and personalized progress tracking.",
-        // },
         {
             id: 'aura-vpn',
             image: aura,
             title: 'aura VPN',
             description: "A fast and secure VPN with Wire Guard for high-speed browsing and Supabase for reliable data protection.", 
         },
-        // {
-        //     id: 'blockatie',
-        //     image: BLOCKATIE,
-        //     title: 'blockatie',
-        //     description: "Blockatie is a modern delivery and logistics platform designed to simplify the shipping process for both clients and drivers. The app allows users to easily create and manage shipments, track delivery progress in real time, and stay updated with detailed order insights.", 
-        // },
         {
             id: 'flatty',
             image: flaty,
@@ -362,60 +278,12 @@ const projects = {
             title: 'GDrive',
             description: "Master the German driving exam with interactive quizzes, videos, and images.",    
         },
-        // {
-        //     id: "green-wave",
-        //     image: web10,
-        //     title: 'green wave eco Loyalty Card',
-        //     description: "An all-in-one VPN solution that keeps your data fully encrypted and securely protects you on any network you use.",
-        // },
-        // {
-        //     id: "hen-bun",
-        //     image: web11,
-        //     title: "Hen'N Bun",
-        //     description: "Hen’ N Bun is a modern restaurant that brings you the perfect blend of juicy grilled chicken, gourmet burgers, and flavorful sides.",
-        // },
-        // {
-        //     id: "herbal-homeo",
-        //     image: web12,
-        //     title: 'herbal homeo',
-        //     description: "We built Herbal Home Wellness as a user-friendly website that promotes natural healing through homeopathic care. The platform allows users to explore remedies, learn about treatments, and connect with practitioners all in one place.",
-        // },
-        // {
-        //     id: "fitme",
-        //     image: web13,
-        //     title: 'fitme stylish',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
         {
             id: "pak-truck",
             image: web14,
             title: 'pak truck',
             description: "Buy, sell, and promote trucks, buses, and spare parts effortlessly.",
         },
-        // {
-        //     id: "sohaagan",
-        //     image: web15,
-        //     title: 'sohaagan',
-        //     description: "We developed Sohaagan, a modern jewelry eCommerce platform with clean layouts, trending collections, advanced filters, and detailed product views for a seamless shopping experience.",
-        // },
-        // {
-        //     id: 'filsx',
-        //     image: filsx,
-        //     title: 'filx digital wallet',
-        //     description: "FilsX Digital Wallet empowers you to send, receive, and manage money securely anytime, anywhere. Enjoy instant transactions, smart budgeting tools, and a seamless digital experience designed for your everyday financial freedom.",
-        // },
-        // {
-        //     id: "specoptics",
-        //     image: web16,
-        //     title: 'specoptics',
-        //     description: "SpecOptics is an e-commerce platform designed to make choosing the perfect eyewear effortless and enjoyable.",
-        // },
-        // {
-        //     id: "fresh-steps",
-        //     image: web9,
-        //     title: 'fresh steps',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
         {
             id: 'paktruck',
             image: pakTruck,
@@ -428,63 +296,24 @@ const projects = {
             title: 'blink back',
             description: "Capture and relive special moments through a simple, intuitive experience.",
         },
-        //  {
-        //     id: 'fitme',
-        //     image: fitme,
-        //     title: 'Fitme Stylish',
-        //     description: "Fitme Stylish is global AI-powered fashion plateform that helps users visualize outfits, style their wardrobe, and receive peronalized daily outfit sugestions",    
-        // },
-        
-        
-        // {
-        //     id: 'harmonized',
-        //     image: harmon,
-        //     title: 'harmonized',
-        //     description: "Harmonized is a modern dating app built to explore profiles and connect effortlessly through smart matching and location-based search.",
-        // },
-        //  {
-        //     id: "ubk-towing",
-        //     image: web18,
-        //     title: 'ubk towing',
-        //     description: "UBK streamlines transportation operations by connecting admins, drivers, and vehicles in one unified system. We built a platform that simplifies vehicle assignments, document tracking, inspection monitoring, and performance analytics.",
-        // },
         {
             id: 'meCloset',
             image: meCloset,
             title: 'Me Closet',
             description: "Organize outfits, create clothing pairs, and plan looks with ease.", 
         },
-        // {
-        //     id: 'mego',
-        //     image: mego,
-        //     title: 'mego',
-        //     description: "A secure and seamless digital marketplace for effortless online buying and selling, featuring a built-in reward system to enhance user engagement and benefits.", 
-        // },
-        // {
-        //     id: 'quickly',
-        //     image: quickly,
-        //     title: 'quickly',
-        //     description: "Quickly brings together books, podcasts, blogs, and news in one intelligent platform. With AI-generated summaries, translations, and audio listening options, it transforms how you consume information.", 
-        // },
         {
             id: 'on-the-dot',
             image: sbp,
             title: 'service booking app',
             description: "Simplifies service discovery, booking, scheduling, and business management.", 
         },
-
- {
+        {
     id: "fitme",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593243/Tanbnil_tlfije.png",
     title: "FitMe - AI Outfit Stylist",
     description: "AI-powered wardrobe app for smart outfit curation, weekly style planning, and personalized fashion recommendations.",
 },
-        // {
-        //     id: 'healthful',
-        //     image: helth,
-        //     title: 'so healthful',
-        //     description: "An AI-powered health app for seamless connections, medication tracking, health record management, and real-time vitals monitoring with smartwatch integration.",  
-        // },
     ],
     
     "Web Development": [
@@ -500,43 +329,12 @@ const projects = {
             title: 'Flaty.pk',
             description: "Flaty lets users explore, buy, and sell properties with trusted listings and secure transactions.",
         },
-
         {
     id: "earning-dashboard",
     image: web3,
     title: 'earning dashboard',
     description: "Monitor revenue, financial performance, and real-time insights through an advanced analytics dashboard.",
 },
-        //  {
-        //     id: "fresh-steps",
-        //     image: web9,
-        //     title: 'fresh steps',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "green-wave",
-        //     image: web10,
-        //     title: 'green wave eco Loyalty Card',
-        //     description: "An all-in-one VPN solution that keeps your data fully encrypted and securely protects you on any network you use.",
-        // },
-        // {
-        //     id: "hen-bun",
-        //     image: web11,
-        //     title: "Hen'N Bun",
-        //     description: "Hen’ N Bun is a modern restaurant that brings you the perfect blend of juicy grilled chicken, gourmet burgers, and flavorful sides.",
-        // },
-        // {
-        //     id: "herbal-homeo",
-        //     image: web12,
-        //     title: 'herbal homeo',
-        //     description: "We built Herbal Home Wellness as a user-friendly website that promotes natural healing through homeopathic care. The platform allows users to explore remedies, learn about treatments, and connect with practitioners all in one place.",
-        // },
-        // {
-        //     id: "fitme",
-        //     image: web13,
-        //     title: 'fitme stylish',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
        {
   id: "pak-truck",
   image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816195/Tanbnil_uurjnc.png',
@@ -544,54 +342,18 @@ const projects = {
   description:
     "A responsive logistics website showcasing trucking services, fleet solutions, and business operations.",
 },
-        // {
-        //     id: "sohaagan",
-        //     image: web15,
-        //     title: 'sohaagan',
-        //     description: "We developed Sohaagan, a modern jewelry eCommerce platform with clean layouts, trending collections, advanced filters, and detailed product views for a seamless shopping experience.",
-        // },
-        // {
-        //     id: "specoptics",
-        //     image: web16,
-        //     title: 'specoptics',
-        //     description: "SpecOptics is an e-commerce platform designed to make choosing the perfect eyewear effortless and enjoyable.",
-        // },
         {
             id: "supply-king",
             image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816196/Supply_king_kriepq.png',
             title: 'supply king',
             description: "Supply King simplifies bulk ordering, supply management, and order tracking.",
         },
-        // {
-        //     id: "vendcommm",
-        //     image: web19,
-        //     title: 'vendcomm',
-        //     description: "VendComm  simplifies collaboration between vendors and event managers with centralized dashboards, automated invoicing, real-time communication, and progress tracking, ensuring every campaign runs efficiently from planning to completion.",
-        // },
         {
             id: "we-scale-hq",
             image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816247/Tanbnil_aqcabk.png',
             title: 'we scale hq',
             description: "Fix sales leaks, train teams, and scale business growth faster.",
         },
-        // {
-        //     id: "brum-mobile-tyre",
-        //     image: brum,
-        //     title: 'Mobile Tyre Service Website',
-        //     description: "",
-        // },
-        // {
-        //     id: "oxzmarkets",
-        //     image: oxmmarket,
-        //     title: 'Oxzmarkets',
-        //     description: "A Trading website promoting Oxzmarkets, offering Forex and crypto trading, account types, platforms, and FAQs, highlighting easy access, global users, and opportunities to earn through investing and networking.",
-        // },
-        // {
-        //     id: "diamond-yarm",
-        //     image: diamond,
-        //     title: 'diamond yarm',
-        //     description: "This is an e-commerce website for a yarn and knitting supplies company that offers a wide range of products including yarn, needles, and crochet tools. The platform showcases various international brands and primarily caters to both retail and wholesale customers.",
-        // },
         {
     id: "glasgow-mobile-car-wash",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816188/Tanbnil_fx9cux.png",
@@ -610,128 +372,54 @@ const projects = {
     title: "Developers Door",
     description: "A modern platform for developers to learn, showcase projects, and explore careers.",
 },
-
 {
     id: "burn-mobile-tyres",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593329/Tanbnil_nxxbnr.png",
     title: "Burn Mobile Tyres",
     description: "24/7 emergency mobile tyre fitting service across Birmingham with RAC-approved technicians and instant roadside assistance.",
 },
-
 {
     id: "specoptics",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783598196/SpecOptic_Tanbnil_glwmq9.png",
     title: "SpecOptics - Premium Eyewear",
     description: "Discover stylish frames, designer brands, and expert eye care through a seamless online optical shopping experience.",
 },
-
 {
     id: "mobile-emissions",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593281/Tanbnil_f0paq7.png",
     title: "Mobile Emissions Testing",
     description: "Certified on-site emission inspections for heavy trucks and commercial fleets with fast 30-minute testing across the GTA.",
 },
-
 {
     id: "oxz-market",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593358/Tanbnil_wvwfgh.png",
     title: "OXZ Market - Forex Trading",
     description: "Advanced online trading platform for global forex, stocks, commodities, and cryptocurrencies with expert analytical tools.",
 },
-
 {
     id: "sohagan",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604502/Tanbnill_k1jaug.png",
     title: "Sohagan - Luxury Jewellery",
     description: "Timeless handcrafted bridal jewellery, premium gold collections, and exclusive custom designs with worldwide insured shipping.",
 },
-
 {
     id: "diamond-yarn",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604550/Tanbnill_yeu6sr.png",
     title: "Diamond Yarn - Premium Yarns",
     description: "Luxury knitting threads, handcrafted needles, curated patterns, and universal fiber accessories for creative crafting needs.",
 },
-
 {
     id: "vendcomm",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783604655/Tanbnill_iy8ld7.png",
     title: "VendComm - Event Management",
     description: "Centralize invoices, manage vendor communications, track event timelines, and streamline team coordination on one powerful platform.",
 },
-
 {
     id: "vendcomm-dashboard",
     image: "https://res.cloudinary.com/dxsr1xve0/image/upload/v1783606330/Tanbnill_yc9bbc.png",
     title: "VendComm Dashboard - Vendor Management",
     description: "Streamline marketing campaigns, track event budgets, assign tasks, and generate digital invoices on a powerful vendor dashboard.",
 },
-        // {
-        //     id: "techkyo-services",
-        //     image: techkyo,
-        //     title: 'Techkyo Services',
-        //     description: "This is a corporate website for a technology company that offers a wide range of modern IT services. The platform showcases the company’s expertise in areas such as web development, cloud computing, and data center solutions.",
-        // },
-        // {
-        //     id: "qrcode",
-        //     image: meqr,
-        //     title: 'QR Code Generator',
-        //     description: "This is a web-based platform that allows users to generate QR codes for any link or text input. Simply paste your desired content, and the website will create a QR code instantly. The service is completely free of cost, and the generated QR codes do not expire, ensuring long-term usability.",
-        // },
-        // {
-        //     id: "gulf-tutor",
-        //     image: tutor,
-        //     title: 'Gulf Tutor',
-        //     description: "This is an online platform where both teachers and students can register separately. Students can search for suitable teachers and send a request for their preferred tutor. The request is reviewed by the admin, and upon approval, the teacher is assigned to the student.",
-        // },
-        // {
-        //     id: "earning-dashboard-driver",
-        //     image: web1,
-        //     title: 'earning dashboard (driver side)',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "earning-dashboard-admin",
-        //     image: web21,
-        //     title: 'earning dashbaord admin side',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "add-main",
-        //     image: web2,
-        //     title: 'add main dashboard builder',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "earning-dashboard",
-        //     image: web3,
-        //     title: 'earning dashboard (admin side)',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "addmain-dashboard",
-        //     image: web4,
-        //     title: 'earning add main dashboard',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "fieldtrip-dashboard",
-        //     image: web5,
-        //     title: 'fieldTrip link driver dashboard',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "fieldtrip-landing",
-        //     image: web6,
-        //     title: 'fieldtrip link landing page',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
-        // {
-        //     id: "fieldtrip-school",
-        //     image: web7,
-        //     title: 'fieldTrip link school dashboard',
-        //     description: "UX Case Study: Kitab Cloud – A Comprehensive Reading Experience for Global Audiences",
-        // },
         {
             id: "fieldtrip-link",
             image: 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782816177/Landing_Page_-_Tanbnil_mvc4xv.png',
@@ -778,13 +466,17 @@ const [activeCategory, setActiveCategory] = useState(
   sessionStorage.getItem('activeCategory') || Object.keys(projects)[0]
 );
 
-// Copy of the active category's projects that gets rendered.
-// Only the "UI / UX Design" category gets re-shuffled on each click (see onClick below).
+const [showAll, setShowAll] = useState(false);
+
+// ✅ UPDATED - Conditional slice based on showMoreButton
 const [displayedProjects, setDisplayedProjects] = useState(() => {
   const startCategory = sessionStorage.getItem('activeCategory') || Object.keys(projects)[0];
-  return startCategory === "UI / UX Design"
+  const projectsList = startCategory === "UI / UX Design"
     ? shuffleArray(projects[startCategory])
     : projects[startCategory];
+  
+  // Agar showMoreButton false hai toh saare projects dikhao, warna sirf 6
+  return showMoreButton ? projectsList.slice(0, 6) : projectsList;
 });
 
 // Save to sessionStorage whenever activeCategory changes
@@ -814,7 +506,7 @@ useEffect(() => {
         hidden: {},
         visible: {
             transition: {
-            staggerChildren: 0.3, // gap between cards
+            staggerChildren: 0.3,
             },
         },
     };
@@ -843,70 +535,70 @@ useEffect(() => {
 const [hovered, setHovered] = useState(false)
 const [hoverId, setHoverId] = useState('')
 
+// Function to handle category change
+const handleCategoryChange = (category) => {
+  setActiveCategory(category);
+  setShowAll(false);
+  const projectsList = category === "UI / UX Design"
+    ? shuffleArray(projects[category])
+    : projects[category];
+  
+  // ✅ UPDATED - Conditional slice based on showMoreButton
+  setDisplayedProjects(showMoreButton ? projectsList.slice(0, 6) : projectsList);
+};
+
+// Function to handle Show More - Navigate to Portfolio page
+const handleShowMore = () => {
+  navigate('/portfolio');
+};
+
   return (
-     <section className="py-20 bg-white">
+     <section className="  sm:mt-[60px]  bg-white">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div className="text-center max-w-4xl mx-auto mb-6">
-      {/* <p className='text-base sm:text-lg text-primary font-medium mb-3'>My Portfolio</p> */}
     <motion.h2
     variants={zoomIn}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         transition={{ delay: 0.15 }}
-    className="text-3xl font-semibold tracking-tight text-[#333] sm:text-4xl">My Previous Work</motion.h2>
-    <motion.p
+   className="text-3xl   sm:text-4xl md:text-5xl font-semibold tracking-tight text-[#333]">Our Projects !</motion.h2>
+<motion.p
     variants={zoomIn}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        transition={{ delay: 0.15 }}
-    className="mt-4 text-lg text-gray-500 w-full sm:w-[80%] mx-auto">You can explore my previous projects and see how I’ve helped clients turn ideas into engaging and high-performing products.</motion.p>
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true }}
+    transition={{ delay: 0.15 }}
+    className="mt-4 leading-[160%] text-sm sm:text-lg text-[#333333CC] w-full max-w-[800px] mx-auto text-center"
+>
+    We comprehend the challenges faced by our clients and deliver the required results.
+    <br />
+    To find out how we can assist you as well, look at some of our work!
+</motion.p>
     </div>
-    <div className='overflow-auto' style={{scrollbarWidth: 'none'}}>
-    <div className='flex justify-center pl-3 w-full overflow-auto sm:w-full' style={{scrollbarWidth: 'none'}}>
-        <div
-        className="relative mb-5 w-fit overflow-auto sm:w-fit rounded-full bg-[#6E708B1F] flex poppins p-1">
-            {Object.keys(projects).map((category) => (
-             <button
+   <div className='overflow-auto mt-8' style={{scrollbarWidth: 'none'}}>
+<div className='flex justify-start sm:justify-center pl-3 sm:pl-0 w-full overflow-auto sm:w-full' style={{scrollbarWidth: 'none'}}>
+    <div
+    className="relative mb-5 w-fit overflow-auto sm:w-fit flex items-center gap-2 sm:gap-3 poppins">
+        {Object.keys(projects).map((category) => (
+         <button
   key={category}
-  onClick={() => {
-    setActiveCategory(category);
-    setDisplayedProjects(
-      category === "UI / UX Design"
-        ? shuffleArray(projects[category])
-        : projects[category]
-    );
-  }}
-  className={`relative px-6 py-2.5 cursor-pointer sm:px-8 sm:py-2.5 capitalize font-medium text-sm sm:text-lg z-10
-    transition-all duration-300
+  onClick={() => handleCategoryChange(category)}
+  className={`relative whitespace-nowrap px-5 py-2 cursor-pointer sm:px-7 sm:py-2.5 capitalize font-medium text-sm sm:text-base rounded-xl border transition-all duration-300
     ${
       activeCategory === category
-        ? "text-white"
-        : "text-[#6E708B] hover:text-gray-900  rounded-full"
+        ? "bg-[#4DC3D1] border-[#4ac3d5] text-white"
+        : "bg-white border-[#E5E7EB] text-[#333333] hover:border-[#4ac3d5]/50"
     }
   `}
 >
-  {activeCategory === category && (
-    <motion.span
-      layoutId="activeTab"
-      className="absolute inset-0 rounded-full bg-[#4ac3d5]"
-      transition={{
-        type: "spring",
-        stiffness: 500,
-        damping: 40,
-      }}
-      style={{ zIndex: -1 }}
-    />
-  )}
-
   {getLabel(category)}
 </button>
-            ))}
-        </div>
-        </div>
-
+        ))}
     </div>
+    </div>
+
+</div>
     <div>
       {/* cards */}
       <motion.div 
@@ -914,37 +606,26 @@ const [hoverId, setHoverId] = useState('')
     variants={container}
     initial="hidden"
     animate={hasAnimated.current ? "visible" : (inView ? "visible" : "hidden")}
-    // {...(isMobile
-    //           ? { animate: "visible" } // no animation on mobile
-    //           : { animate: inView ? "visible" : "hidden" })} 
-
-      className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 max-w-6xl mx-auto">
+      className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 max-w-6xl mx-auto my-12">
        {displayedProjects.map((item, index) => (
       <Link to={`/portfolio/${item.id}`}
             state={{ category: activeCategory }} 
         >
 
   <motion.div
-//   ref={ref}
-// variants={items}
-// transition={{ duration: 0.3, ease: "easeOut" }}
     key={index}
     onMouseEnter={() => {setHovered(true); setHoverId(item.id)}}
     onMouseLeave={() => {setHovered(false); setHoverId('')}}
     className="relative rounded-xl overflow-hidden shadow-[0_2px_16px_0_#E3EBFC] hover:shadow-[0_4px_20px_0_#E3EBFC] transition-all duration-300 cursor-pointer "
   >
-    {/* Image */}
-  
     <img
       src={item.image}
       alt={item.title}
       className={`w-full h-auto object-contain transition-transform duration-500 ${hovered && hoverId === item.id? 'scale-110' : ''}`}
     />
 
-    {/* Overlay */}
     <div className={`absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent ${hovered && hoverId === item.id? 'opacity-100' : 'opacity-0 '} transition-opacity duration-300`}></div>
 
-    {/* Text Content */}
     <div className={`absolute bottom-6 right-16 pl-4 text-white transition-all duration-300  ${hovered && hoverId === item.id ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
       <h3 className="text-2xl font-semibold mb-1 capitalize">
         {item.title}
@@ -952,7 +633,6 @@ const [hoverId, setHoverId] = useState('')
       <p className="text-sm mb-2">
         {item.description}
       </p>
-            {/* Hidden Link for SEO/Accessibility */}
             <a href={item.id} className="absolute inset-0">
               <span className="sr-only">View {item.title}</span>
             </a>
@@ -961,6 +641,18 @@ const [hoverId, setHoverId] = useState('')
   </Link>
 ))}
       </motion.div>
+
+      {/* Show More Button - Navigate to Portfolio Page */}
+      {showMoreButton && !showAll && displayedProjects.length < projects[activeCategory]?.length && (
+        <div className="text-center mt-8 mb-10">
+          <button
+            onClick={handleShowMore}
+            className="px-8 py-3 bg-[#4DC3D1] text-white font-semibold rounded-full hover:bg-[#3a9ba8] transition-all duration-300 shadow-md hover:shadow-lg"
+          >
+            See More
+          </button>
+        </div>
+      )}
     </div>
     </div>
     </section>
