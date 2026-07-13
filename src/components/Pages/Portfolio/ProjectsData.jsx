@@ -25,7 +25,7 @@ import onthedotMockup from '../../../assets/mockups2/mockups/Service Booking App
 
 // rafik
 
-const rafik = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783842882/ABU_RAFIK_BUTCHER_zmtlmz.png'
+const rafik = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110142/Abu_Rafiq_Hero_Section_xm1lhd.png'
 const top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110136/top_cmiz5f.png'
 const rafik1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110135/1_phcirl.png'
 const rafik2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1782110135/2_canxmr.png'
@@ -164,7 +164,7 @@ const mego_3 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593154/3_
 const mego_4 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593154/Bottam_jtussl.png'
 
 // Mb Travel 
-const MbTravel_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593215/Hero_arfdth.png'
+const MbTravel_thumb = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783845123/MB_Travel_Hero_wyzr3j.png'
 const MbTravel_top = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593214/Main_Feature_bywhdr.png'
 const MbTravel1 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593207/1_zrytrr.png'
 const MbTravel2 = 'https://res.cloudinary.com/dxsr1xve0/image/upload/v1783593208/2_bamxx0.png'

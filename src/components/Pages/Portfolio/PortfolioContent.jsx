@@ -140,7 +140,7 @@ const PortfolioContent = () => {
         />
 
         {/* Project Thumbnail Image */}
-        <img src={project.thumbnail} className='w-full h-auto pt-15' alt="thumbnail" />
+        <img src={project.thumbnail} className='w-full max-h-[850px] pt-15' alt="thumbnail" />
 
         {/* ================================
             Main Content Container
@@ -151,24 +151,24 @@ const PortfolioContent = () => {
               Hero Section (different layout for Web vs Mobile)
           ================================ */}
           {isWeb ?
-            // Web project hero section
-            <div className='relative mt-40'>
-              <img src={ellipseweb} className='absolute z-0 -top-10 left-[10%] w-[80%]' alt="" />
-              <div className='relative z-4'>
-                <div className='flex justify-center'>
-                  <p className='text-center bg-[#FFFFFF] py-3.5 px-6 rounded-full text-lg sm:text-xl md:text-2xl font-medium w-fit'>
-                    {project?.heroTag}
-                  </p>
-                </div>
-                <h1
-                  className='text-center font-semibold text-[#99a1a8] text-2xl sm:text-4xl md:text-5xl lg:text-[60px]'
-                  dangerouslySetInnerHTML={{ __html: project?.title }}
-                ></h1>
-                <p className='text-center font-medium text-[#333333E5] text-sm sm:text-base md:text-lg w-full sm:w-[75%] md:w-[55%] lg:w-[40%] mx-auto'>
-                  {project?.desc}
-                </p>
-              </div>
-            </div>
+  // Web project hero section
+  <div className='relative mt-10'>
+    <img src={ellipseweb} className='absolute z-0 -top-10 left-[10%]  w-[80%]' alt="" />
+    <div className='relative z-4'>
+      <div className='flex justify-center'>
+        <p className='text-center bg-[#FFFFFF] py-3.5 px-6 rounded-full text-lg sm:text-xl md:text-2xl font-medium w-fit'>
+          {project?.heroTag}
+        </p>
+      </div>
+      <h1
+        className='text-center font-semibold text-[#99a1a8] mt-3 sm:mt-4 md:mt-5 text-2xl sm:text-4xl md:text-5xl lg:text-[60px]'
+        dangerouslySetInnerHTML={{ __html: project?.title }}
+      ></h1>
+      <p className='text-center font-medium text-[#333333E5] mt-3 sm:mt-4 md:mt-5 text-sm sm:text-base md:text-lg w-full sm:w-[75%] md:w-[55%] lg:w-[40%] mx-auto'>
+        {project?.desc}
+      </p>
+    </div>
+  </div>
             :
             // Mobile app hero section
             <>
